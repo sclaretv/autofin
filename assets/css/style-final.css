@@ -1,0 +1,46 @@
+html { 
+  background: url(../img/fondo-final.png) no-repeat bottom center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font-family: Tahoma !important;
+}
+
+/* Navbar */
+.container-footer {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.nav-item {
+	font-family: Tahoma !important;
+    font-weight: bolder;
+    font-size: smaller;
+    letter-spacing: 0.2px;
+    white-space: nowrap;
+}
+
+.bg-black{
+	background: #000000;
+	
+}
+
+
+.bg-yellow{
+	background: #D1AB17;
+	
+}
+
+
+.li-footer {
+	padding-left: 30px;
+}
