@@ -13,7 +13,7 @@
                   <p class="auto-moto-header text-yellow">¡TIENES EL AUTO QUE NUESTROS CLIENTES QUIEREN Y NOSOTROS EL MEJOR FINANCIAMIENTO Y TECNOLOGÍA!</p>
                   <div class="d-none d-lg-block d-xl-block">
                     <p class="text-justify auto-moto-text text-white">En Autofin sabemos el auto que necesitan nuestros clientes y que tú puedes ofrecerles, es por eso que ponemos a tu alcance todos nuestros servicios tecnológicos y las mejores alternativas en financiamiento.</p>
-                    <button type="button" class="btn btn-sm btn-autofin text-button text-white">COMENCEMOS</button>
+                    <a href="#comencemos" class="btn btn-sm btn-autofin text-button text-white">COMENCEMOS</a>
                   </div>
                 </div>
                 <div class="col-lg-4">
@@ -27,7 +27,7 @@
                   <p class="auto-moto-header text-yellow">¡TIENES LA MOTO QUE NUESTROS CLIENTES QUIEREN Y NOSOTROS EL MEJOR FINANCIAMIENTO Y TECNOLOGÍA!</p>
                   <div class="d-none d-lg-block d-xl-block">
                     <p class="text-justify auto-moto-text text-white">En Autofin sabemos la moto que necesitan nuestros clientes y que tú puedes ofrecerles, es por eso que ponemos a tu alcance todos nuestros servicios tecnológicos y las mejores alternativas en financiamiento.</p>
-                    <button type="button" class="btn btn-sm btn-autofin text-button text-white">COMENCEMOS</button>
+                    <a href="#comencemos" class="btn btn-sm btn-autofin text-button text-white">COMENCEMOS</a>
                   </div>
                 </div>
                 <div class="col-lg-4">
@@ -37,12 +37,12 @@
 
             <div class="d-xl-none d-lg-none d-md-block d-sm-block div-auto">
               <p class="text-justify auto-moto-text text-white">En Autofin sabemos el auto que necesitan nuestros clientes y que tú puedes ofrecerles, es por eso que ponemos a tu alcance todos nuestros servicios tecnológicos y las mejores alternativas en financiamiento.</p>
-              <button type="button" class="btn btn-sm btn-autofin text-button text-white">COMENCEMOS</button>
+              <a href="#comencemos" class="btn btn-sm btn-autofin text-button text-white">COMENCEMOS</a>
             </div>
            
             <div class="d-xl-none d-lg-none d-md-block d-sm-block div-moto d-none">
               <p class="text-justify auto-moto-text text-white">En Autofin sabemos la moto que necesitan nuestros clientes y que tú puedes ofrecerles, es por eso que ponemos a tu alcance todos nuestros servicios tecnológicos y las mejores alternativas en financiamiento.</p>
-              <button type="button" class="btn btn-sm btn-autofin text-button text-white">COMENCEMOS</button>
+              <a href="#comencemos" class="btn btn-sm btn-autofin text-button text-white">COMENCEMOS</a>
             </div>
             
             <div class="botones-main">

@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-black fixed-top" id="navbar-header">
   <div class="container navbar-container">
-    <a class="navbar-brand d-xl-none d-lg-none d-md-block d-sm-block" href="#">
+    <a class="navbar-brand d-xl-none d-lg-none d-md-block d-sm-block" href="#main">
       <img src="assets/img/logotipo-autofin-blanco.svg" width="155" height="55" alt="">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +19,7 @@
           <a class="nav-link af-link text-white" href="#">PANAL</a>
         </li>
         <li class="nav-item d-none d-lg-block d-xl-block">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="#main">
             <img src="assets/img/logotipo-autofin-blanco.svg" width="155" height="55" alt="">
           </a>
         </li>
