@@ -19,17 +19,23 @@
     <?php  include 'menu.php'; ?>
     
     <!-- contenido -->
-    <div class="container-fluid panel" id="main">
+    <section class="container-fluid" id="main">
 
-    </div>        
+        
 
-    <div class="container-fluid panel" id="sections">
+    </section>
 
-    </div>        
+    <section class="container-fluid" id="comencemos">
+        <?php //include 'comencemos.php'; ?>
+    </section>        
 
-    <div class="container-fluid panel" id="footer">
+    <section class="container-fluid" id="sections">
+        <?php //include 'sections.php'; ?>
+    </section>        
 
-    </div>        
+    <section class="container-fluid" id="footer">
+        <?php include 'footer.php'; ?>
+    </section>        
     
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
