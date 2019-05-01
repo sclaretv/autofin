@@ -25,7 +25,7 @@
     
 
     <section class="container-fluid" id="comencemos">
-        <?php //include 'comencemos.php'; ?>
+        <?php include 'comencemos.php'; ?>
     </section>        
 
     <section class="container-fluid" id="sections">
@@ -55,6 +55,18 @@
                 $(".div-auto").addClass( "d-none" );
                 $(".div-moto").removeClass( "d-none" );
             });
+
+
+            function fullscreen (e){
+                  if (e.webkitRequestFullScreen) {
+                    e.webkitRequestFullScreen();
+                  } else if(e.mozRequestFullScreen) {
+                    e.mozRequestFullScreen();
+                  }
+              }
+            document.getElementById('botonparaactivar').onclick = function(){
+                fullscreen(document.getElementById('video-autofin'));
+            }
 
         });
     </script>

@@ -1,5 +1,29 @@
-
+    
+    <div class="container comencemos">
       <!-- Sección comencemos -->
-      <div class="container">
-        444
-      </div> 
+      <div class="row">
+        <div class="col-lg-2">          
+        </div> 
+
+        <div class="col-lg-8">
+          <div class="div-comencemos">
+          	<div class="embed-responsive embed-responsive-16by9">
+			  <iframe id="video-autofin" class="embed-responsive-item" src="https://www.youtube.com/embed/WaFeIHV4C_U?rel=0" allowfullscreen on-click="fullscreen('video-autofin')"></iframe>
+			</div>
+          </div> 
+
+          	<div class="text-comencemos">
+				<p>CONOCE NUESTRAS SOLUCIONES TECNOLÓGICAS, QUE HACEN QUE NUESTRO SERVICIO SEA DE VANGUARDIA</p>
+			</div> 
+
+			<a href="#" id="botonparaactivar">Pantalla Completa</a>        
+        </div> 
+
+        <div class="col-lg-2">
+        </div> 
+
+      </div>
+
+
+       
+    </div>
