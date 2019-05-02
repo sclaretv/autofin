@@ -10,13 +10,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav align-items-end mr-auto w-100 nav-justified ">
         <li class="nav-item">
-          <a class="nav-link af-link text-white" href="#">PORTAL CES</a>
+          <a class="nav-link af-link text-white" href="#portal-ces">PORTAL CES</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link af-link text-white" href="#">TRINIDAD</a>
+          <a class="nav-link af-link text-white" href="#trinidad">TRINIDAD</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link af-link text-white" href="#">PANAL</a>
+          <a class="nav-link af-link text-white" href="#panal">PANAL</a>
         </li>
         <li class="nav-item d-none d-lg-block d-xl-block">
           <a class="navbar-brand" href="#main">
@@ -24,13 +24,13 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link af-link text-white" href="#">ARAÑA</a>
+          <a class="nav-link af-link text-white" href="#araña">ARAÑA</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link af-link text-white" href="#">MI AUTOFIN</a>
+          <a class="nav-link af-link text-white" href="#mi-autofin">MI AUTOFIN</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link af-link text-white" href="#">FUERZA</a>
+          <a class="nav-link af-link text-white" href="#fuerza">FUERZA</a>
         </li>
       </ul>
     </div>

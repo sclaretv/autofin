@@ -28,11 +28,27 @@
         <?php include 'comencemos.php'; ?>
     </section>        
 
-    <section class="container-fluid" id="sections">
+    <!-- secciones de productos -->
+    <section class="container-fluid sections" id="portal-ces">
+        <?php include 'portal-ces.php'; ?>
+    </section>        
+    <section class="container-fluid sections" id="trinidad">
+        <?php //include 'sections.php'; ?>
+    </section>        
+    <section class="container-fluid sections" id="panal">
+        <?php //include 'sections.php'; ?>
+    </section>        
+    <section class="container-fluid sections" id="araña">
+        <?php //include 'sections.php'; ?>
+    </section>        
+    <section class="container-fluid sections" id="mi-autofin">
+        <?php //include 'sections.php'; ?>
+    </section>        
+    <section class="container-fluid sections" id="fuerza">
         <?php //include 'sections.php'; ?>
     </section>        
 
-    <section class="container-fluid" id="footer">
+    <section class="container-fluid sections" id="footer">
         <?php //include 'footer.php'; ?>
     </section>        
     
