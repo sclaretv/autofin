@@ -36,13 +36,13 @@
         <?php //include 'sections.php'; ?>
     </section>        
     <section class="container-fluid sections" id="panal">
-        <?php //include 'sections.php'; ?>
+        <?php include 'panal.php'; ?>
     </section>        
     <section class="container-fluid sections" id="araña">
         <?php //include 'sections.php'; ?>
     </section>        
     <section class="container-fluid sections" id="mi-autofin">
-        <?php //include 'sections.php'; ?>
+        <?php include 'mi-autofin.php'; ?>
     </section>        
     <section class="container-fluid sections" id="fuerza">
         <?php //include 'sections.php'; ?>
