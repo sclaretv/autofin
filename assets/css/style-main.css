@@ -135,8 +135,8 @@ body {
   padding-left: 30px;
 }
 
-#btn-moto {
-  margin-left: -20px;
+.btn-moto {
+  margin-left: -10px;
 }
 
 /*.img-auto { 
@@ -227,7 +227,7 @@ body {
     .div-auto { text-align: center; }
     .div-moto { text-align: center; }
     .botones-main { text-align:center; }
-    #btn-auto { margin-left: -20px; }
+    .btn-auto { margin-left: -30px; }
 
     .comencemos { padding-top: 130px; }
     .div-comencemos { margin-left: 80px; }

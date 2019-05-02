@@ -46,14 +46,8 @@
     <script>
         $(document).ready(function() { 
 
-            $("#btn-auto").click(function() {
-                $(".div-moto").addClass( "d-none" );
-                $(".div-auto").removeClass( "d-none" );
-            });
-
-            $("#btn-moto").click(function() {
-                $(".div-auto").addClass( "d-none" );
-                $(".div-moto").removeClass( "d-none" );
+           $('.carousel').carousel({
+              interval: 7000
             });
 
 
