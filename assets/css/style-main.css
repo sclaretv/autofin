@@ -164,7 +164,7 @@ body {
 }
 
 .comencemos {
-  padding-top: 30px;
+  padding-top: 70px;
   margin-bottom: 130px;
 }
 
@@ -231,5 +231,5 @@ body {
 
     .comencemos { padding-top: 130px; }
     .div-comencemos { margin-left: 80px; }
-    .text-comencemos { padding-top: 50px; color: #ffffff; }
+    .text-comencemos { padding-top: 30px; padding-left: 90px; color: #ffffff; font-size: large; letter-spacing: 1px; line-height: 25px;}
 }
