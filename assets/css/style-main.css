@@ -277,4 +277,6 @@ body {
     .text-comencemos { padding-top: 30px; padding-left: 90px; color: #ffffff; font-size: large; letter-spacing: 1px; line-height: 25px;}
 
     .productos { padding-top: 130px; }
+    .text-productos { text-align: center; padding-top: 0px; padding-bottom: 20px; padding-right: 100px; padding-left: 100px;}
+    .logo-productos { text-align: center; padding-bottom: 0px;}
 }
