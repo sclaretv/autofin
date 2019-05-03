@@ -46,7 +46,7 @@
     </section>
 
     <section class="container-fluid sections" id="novedades">
-        <?php include //'mi-autofin.php'; ?>
+        <?php include 'novedades.php'; ?>
     </section>
 
     <section class="container-fluid sections" id="fuerza">
