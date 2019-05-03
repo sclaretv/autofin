@@ -25,13 +25,13 @@
             <div class="container">
               <ul class="navbar-nav ml-auto flex-row">
                 <li class="nav-item li-footer">
-                  <a class="navbar-brand" href="#"><img src="assets/icons/icono-blog.svg"  width="25" height="25" alt=""></a>
+                  <a class="navbar-brand" href="http://www.autoﬁn.cl/blog/" target="_blank"><img src="assets/icons/icono-blog.svg"  width="25" height="25" alt=""></a>
                 </li>
                 <li class="nav-item li-footer">
-                  <a class="navbar-brand" href="#"><img src="assets/icons/icono-facebook.svg"  width="25" height="25" alt=""></a>
+                  <a class="navbar-brand" href="https://www.facebook.com/autoﬁnchile" target="_blank"><img src="assets/icons/icono-facebook.svg"  width="25" height="25" alt=""></a>
                 </li>
                 <li class="nav-item li-footer">
-                  <a class="navbar-brand" href="#"><img src="assets/icons/icono-instagram.svg"  width="25" height="25" alt=""></a>
+                  <a class="navbar-brand" href="https://www.instagram.com/autofin_chile/?hl=es-la" target="_blank"><img src="assets/icons/icono-instagram.svg"  width="25" height="25" alt=""></a>
                 </li>
               </ul>
           </div>
