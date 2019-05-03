@@ -7,7 +7,7 @@
       <img src="assets/icons/menu-responsive.svg"  width="25" height="25" alt=""  aria-hidden=true>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse bg-black" id="navbarSupportedContent">
       <ul class="navbar-nav align-items-end mr-auto w-100 nav-justified ">
         <li class="nav-item">
           <a class="nav-link af-link text-white" href="#portal-ces">PORTAL CES</a>
