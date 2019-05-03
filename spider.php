@@ -23,7 +23,7 @@
                 <div class="d-xl-none d-lg-none d-md-block d-sm-block">
                   <ul class="list-inline text-center">
                     <li class="list-inline-item">
-                      <a href="https://www.youtube.com/watch?time_continue=52&v=WaFeIHV4C_U" target="_blank">
+                      <a href="https://www.youtube.com/watch?time_continue=52&v=WaFeIHV4C_U">
                         <img src="assets/icons/autofin-icono-web-3.svg"  width="45" height="45" alt=""  aria-hidden=true>
                       </a>
                     </li>
@@ -67,7 +67,7 @@
               <div class="col-lg-1 iconos-productos d-none d-lg-block d-xl-block">
                 <ul class="list-unstyled my-auto">
                   <li class="pb-2">
-                    <a href="https://www.youtube.com/watch?time_continue=52&v=WaFeIHV4C_U" target="_blank">
+                    <a href="https://www.youtube.com/watch?time_continue=52&v=WaFeIHV4C_U" >
                       <img src="assets/icons/autofin-icono-web-3.svg"  width="45" height="45" alt=""  aria-hidden=true>
                     </a>
                   </li>

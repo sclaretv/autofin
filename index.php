@@ -50,7 +50,7 @@
     </section>
 
     <section class="container-fluid sections" id="fuerza">
-        <?php //include 'sections.php'; ?>
+        <?php include 'fuerza.php'; ?>
     </section>        
 
     <section class="container-fluid sections" id="footer">
