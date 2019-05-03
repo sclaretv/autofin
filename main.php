@@ -7,7 +7,7 @@
 
         <div class="col-lg-10">
             
-            <div id="carouselExampleFade" class="carousel slide" data-ride="carousel">
+            <div id="carousel-main" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   
@@ -60,10 +60,10 @@
 
             <div class="botones-main">
               <ul class="list-inline">
-                <li data-target="#carouselExampleFade" data-slide-to="0" class="list-inline-item btn-auto active">
+                <li data-target="#carousel-main" data-slide-to="0" class="list-inline-item btn-auto active">
                   <img src="assets/icons/autofin-icono-web-1.svg"  width="30" height="30" alt=""  aria-hidden=true>
                 </li>
-                <li data-target="#carouselExampleFade" data-slide-to="1" class="list-inline-item btn-moto">
+                <li data-target="#carousel-main" data-slide-to="1" class="list-inline-item btn-moto">
                   <img src="assets/icons/autofin-icono-web-2.svg"  width="30" height="30" alt=""  aria-hidden=true>
                 </li>
               </ul>

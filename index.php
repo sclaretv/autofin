@@ -33,17 +33,22 @@
         <?php include 'portal-ces.php'; ?>
     </section>        
     <section class="container-fluid sections" id="trinidad">
-        <?php //include 'sections.php'; ?>
+        <?php include 'trinidad.php'; ?>
     </section>        
     <section class="container-fluid sections" id="panal">
         <?php include 'panal.php'; ?>
     </section>        
     <section class="container-fluid sections" id="araña">
-        <?php //include 'sections.php'; ?>
+        <?php include 'spider.php'; ?>
     </section>        
     <section class="container-fluid sections" id="mi-autofin">
         <?php include 'mi-autofin.php'; ?>
-    </section>        
+    </section>
+
+    <section class="container-fluid sections" id="novedades">
+        <?php include //'mi-autofin.php'; ?>
+    </section>
+
     <section class="container-fluid sections" id="fuerza">
         <?php //include 'sections.php'; ?>
     </section>        
@@ -62,8 +67,12 @@
     <script>
         $(document).ready(function() { 
 
-           $('.carousel').carousel({
+            $('#carousel-main').carousel({
               interval: 7000
+            });
+
+            $('.carousel_productos').carousel({
+              interval: 5000
             });
 
 

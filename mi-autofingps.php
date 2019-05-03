@@ -1,11 +1,4 @@
     
-    <div class="container productos">
-      <!-- Sección productos: mi autofin -->
-      <div class="row">
-        <div class="col-lg-1">          
-        </div> 
-
-        <div class="col-lg-10">
           <div class="producto_miautofin div_productos">
 
             <div class="row">
@@ -64,7 +57,6 @@
                 <div class="text-productos">
                   <p>Aplicación móvil que entrega un medio de contacto permanente con la cartera de clientes para renovación, nuevas ventas y pagos de cuota instantáneos.</p>
 
-                  <a href="#novedades" class="btn btn-sm btn-autofin text-button text-white">NOVEDADES</a>
                 </div>
 
                 <div class="d-xl-none d-lg-none d-md-block d-sm-block">
@@ -90,11 +82,3 @@
               </div>
             </div>
           </div>
-        </div> 
-
-        <div class="col-lg-1">
-        </div> 
-
-      </div>
-
-    </div>
