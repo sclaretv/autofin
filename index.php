@@ -75,6 +75,10 @@
               interval: 5000
             });
 
+            $('#carouselnovedades').carousel({
+              interval: 5000
+            });
+
 
             function fullscreen (e){
                   if (e.webkitRequestFullScreen) {

@@ -10,10 +10,10 @@
             <div id="carouselnovedades" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <?php //include 'novedades/mi-autofingps.php'; ?>11
+                  <?php include 'novedades/mi-autofingps.php'; ?>
                 </div>
                 <div class="carousel-item">
-                  <?php //include 'novedades/buho.php'; ?>1122
+                  <?php include 'novedades/buho.php'; ?>
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carouselnovedades" role="button" data-slide="prev">
