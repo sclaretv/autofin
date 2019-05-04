@@ -84,7 +84,7 @@
 
 </div>
       <!-- Footer -->
-      <div class="container-fluid fixed-bottom ">
+      <div class="container-fluid ">
         <!-- Contact -->
         <div class="row bg-black" id="footer-contact">
             <div class="col-lg-6 col-md-12 align-self-center" >
