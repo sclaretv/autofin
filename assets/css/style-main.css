@@ -46,7 +46,7 @@ body {
   padding-bottom: 5px;
   padding-left: 25px;
   padding-right: 25px;
-  border-color: #767676;
+  border-color: #949596;
   border-radius: 0px;
   border-width: 3px;
 }
@@ -145,7 +145,7 @@ body {
   margin-right: 100px;
   border-style: solid;
   border-width: 10px;
-  border-color:rgb(44, 43, 43);
+  border-color: #949596;
 }
 
 .text-comencemos {
@@ -156,7 +156,7 @@ body {
   font-size: x-large;
   text-align: center;
   line-height: normal;
-  color:rgb(44, 43, 43);
+  color: #949596;
 }
 
 /* secciones de productos */

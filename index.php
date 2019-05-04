@@ -169,16 +169,16 @@
             });*/
 
 
-            /*function fullscreen (e){
-                  if (e.webkitRequestFullScreen) {
+            function fullscreen (e){
+                if (e.webkitRequestFullScreen) {
                     e.webkitRequestFullScreen();
                   } else if(e.mozRequestFullScreen) {
                     e.mozRequestFullScreen();
                   }
-              }
-            document.getElementById('botonparaactivar').onclick = function(){
-                fullscreen(document.getElementById('video-autofin'));
-            }*/
+                }
+                document.getElementById('video-comencemos').onclick = function(){
+                    fullscreen(document.getElementById('video-autofin'));
+                }
 
         });
     </script>
