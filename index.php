@@ -51,8 +51,8 @@
             <?php include 'fuerza.php'; ?>
         </section>        
 
-        <section class="section sections full-bg" id="footer">
-            <?php //include 'footer.php'; ?>
+        <section class="section sections full-bg" id="fuerza-fin">
+            <?php include 'footer.php'; ?>
         </section>      
     
 

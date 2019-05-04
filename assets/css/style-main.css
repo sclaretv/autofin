@@ -184,6 +184,11 @@ body {
     padding-right: 50px;
 }
 
+.logo-productos2 {
+    padding-top: 10%;
+    padding-left: 40px;
+}
+
 .text-productos {
   padding-left: 10%;
   padding-right: 20%;
@@ -197,6 +202,7 @@ body {
 .text-productos2 {
   padding-left: 10%;
   padding-right: 15%;
+  margin-top: 35%;
   color: #949596;
   text-align: justify;
   letter-spacing: 1px;
@@ -256,10 +262,10 @@ body {
   color: #ffffff;
   white-space: nowrap;
   letter-spacing: 0.1px;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-left: 130px;
   padding-right: 130px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 #footer-contact p {
@@ -356,6 +362,10 @@ body {
   padding-top: 13%;
 }
 
+.iconos-productos4 {
+  padding-top: 17%;
+}
+
 .img-carousel-products {
   padding-top: 15%;
 }
@@ -391,4 +401,9 @@ body {
 #producto-spider {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(84, 84, 84, .9)), to(rgba(84, 84, 84, .9))), url(../img/fondo-spider.jpg);
   background-image: linear-gradient(25deg, rgb(8, 8, 8), rgba(49, 48, 48, 0.9)), url(../img/fondo-spider.jpg);  
+}
+
+#producto-fuerza {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(84, 84, 84, .9)), to(rgba(84, 84, 84, .9))), url(../img/fondo-fuerza.jpg);
+  background-image: linear-gradient(25deg, rgb(8, 8, 8), rgba(49, 48, 48, 0.9)), url(../img/fondo-fuerza.jpg);  
 }
