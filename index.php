@@ -27,32 +27,36 @@
         </section>        
 
         <!-- secciones de productos -->
-        <section class="section sections full-bg" id="portal-ces">
+        <section class=" full-bg sections" id="portal-ces">
             <?php include 'portal-ces.php'; ?>
         </section>        
-        <section class="section sections full-bg" id="trinidad">
+        <section class=" full-bg sections" id="trinidad">
             <?php include 'trinidad.php'; ?>
         </section>        
-        <section class="section sections full-bg" id="panal">
+        <section class=" full-bg sections" id="panal">
             <?php include 'panal.php'; ?>
         </section>        
-        <section class="section sections full-bg" id="araña">
+        <section class=" full-bg sections" id="araña">
             <?php include 'spider.php'; ?>
         </section>        
-        <section class="section sections full-bg" id="mi-autofin">
+        <section class=" full-bg sections" id="mi-autofin">
             <?php include 'mi-autofin.php'; ?>
         </section>
 
-        <section class="section sections full-bg" id="novedades">
-            <?php include 'novedades.php'; ?>
+        <section class=" full-bg sections" id="mi-autofingps">
+            <?php include 'novedades/mi-autofingps.php'; ?>
         </section>
 
-        <section class="section sections full-bg" id="fuerza">
+        <section class=" full-bg sections" id="buho">
+            <?php include 'novedades/buho.php'; ?>
+        </section>
+
+        <section class=" full-bg sections" id="fuerza">
             <?php include 'fuerza.php'; ?>
         </section>        
 
-        <section class="section sections full-bg" id="fuerza-fin">
-            <?php include 'footer.php'; ?>
+        <section class=" full-bg sections" id="fuerza-fin">
+            <?php //include 'footer.php'; ?>
         </section>      
     
 

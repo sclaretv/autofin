@@ -3,7 +3,7 @@
     <div class="container">
       <!-- Sección novedades -->
       <div id="carouselnovedades" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
+        <div class="carousel-inner" >
           <div class="carousel-item active">
             <?php include 'novedades/mi-autofingps.php'; ?>
           </div>
