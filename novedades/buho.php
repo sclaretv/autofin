@@ -1,25 +1,26 @@
+<div class="slide-previous"></div>
 <div class="div0">
-  <div class="slide-previous"></div>
+  <!---->
 
-    <div class="iconos-productos iconos-productos4 d-none d-lg-block d-xl-block">
-      <ul class="list-unstyled my-auto">
-        <li class="pb-2">
-          <a href="https://www.youtube.com/watch?v=B1tQeVZVsdU">
-            <img src="assets/icons/autofin-icono-web-3.svg"  width="75%" alt=""  aria-hidden=true>
-          </a>
-        </li>
-        <li class="pb-2">
-          <a href="https://play.google.com/store/apps/details?id=com.mavimovil.autofin" target="_blank">
-            <img src="assets/icons/autofin-icono-web-4.svg"  width="75%" alt=""  aria-hidden=true>
-          </a>
-        </li>
-        <li class="pb-2">
-          <a href="https://itunes.apple.com/us/app/mi-autofin/id1253130290?ls=1&mt=8" target="_blank">
-            <img src="assets/icons/autofin-icono-web-6.svg"  width="75%" alt=""  aria-hidden=true>
-          </a>
-        </li>
-      </ul>
-    </div>
+  <div class="iconos-productos iconos-productos4 d-none d-lg-block d-xl-block">
+    <ul class="list-unstyled my-auto">
+      <li class="pb-2">
+        <a href="https://www.youtube.com/watch?v=B1tQeVZVsdU">
+          <img src="assets/icons/autofin-icono-web-3.svg"  width="75%" alt=""  aria-hidden=true>
+        </a>
+      </li>
+      <li class="pb-2">
+        <a href="https://play.google.com/store/apps/details?id=com.mavimovil.autofin" target="_blank">
+          <img src="assets/icons/autofin-icono-web-4.svg"  width="75%" alt=""  aria-hidden=true>
+        </a>
+      </li>
+      <li class="pb-2">
+        <a href="https://itunes.apple.com/us/app/mi-autofin/id1253130290?ls=1&mt=8" target="_blank">
+          <img src="assets/icons/autofin-icono-web-6.svg"  width="75%" alt=""  aria-hidden=true>
+        </a>
+      </li>
+    </ul>
+  </div>
 
   <div class="div6">
     <div class="slider-productos">
@@ -83,5 +84,6 @@
   
   </div>
 
-  <div class="slide-next"></div>
+
 </div>
+<!--<div class="slide-next"></div>-->
