@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php  $version = date('YmdHis'); ?>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -6,11 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Autofin</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css?<?php echo $version ?>" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- CSS personalizado -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style-main.css"  >
+    <link rel="stylesheet" type="text/css" href="assets/css/style-main.css?<?php echo $version ?>"  >
 
-    <!--<script type="text/javascript" src="assets/js/index.js"></script>-->
   </head>
   <body>
 
@@ -18,44 +18,42 @@
     <?php  include 'menu.php'; ?>
     
     <!-- contenido -->
+        <section id="main" class="full-bg">
+            <?php include 'main.php'; ?>
+        </section>
     
-    <section class="container-fluid" id="main">
-        <?php include 'main.php'; ?>
-    </section>
-    
+        <section  id="comencemos" class="full-bg">
+            <?php include 'comencemos.php'; ?>
+        </section>        
 
-    <section class="container-fluid" id="comencemos">
-        <?php include 'comencemos.php'; ?>
-    </section>        
+        <!-- secciones de productos -->
+        <section class="section sections full-bg" id="portal-ces">
+            <?php include 'portal-ces.php'; ?>
+        </section>        
+        <section class="section sections full-bg" id="trinidad">
+            <?php include 'trinidad.php'; ?>
+        </section>        
+        <section class="section sections full-bg" id="panal">
+            <?php include 'panal.php'; ?>
+        </section>        
+        <section class="section sections full-bg" id="araña">
+            <?php include 'spider.php'; ?>
+        </section>        
+        <section class="section sections full-bg" id="mi-autofin">
+            <?php include 'mi-autofin.php'; ?>
+        </section>
 
-    <!-- secciones de productos -->
-    <section class="container-fluid sections" id="portal-ces">
-        <?php include 'portal-ces.php'; ?>
-    </section>        
-    <section class="container-fluid sections" id="trinidad">
-        <?php include 'trinidad.php'; ?>
-    </section>        
-    <section class="container-fluid sections" id="panal">
-        <?php include 'panal.php'; ?>
-    </section>        
-    <section class="container-fluid sections" id="araña">
-        <?php include 'spider.php'; ?>
-    </section>        
-    <section class="container-fluid sections" id="mi-autofin">
-        <?php include 'mi-autofin.php'; ?>
-    </section>
+        <section class="section sections full-bg" id="novedades">
+            <?php include 'novedades.php'; ?>
+        </section>
 
-    <section class="container-fluid sections" id="novedades">
-        <?php include 'novedades.php'; ?>
-    </section>
+        <section class="section sections full-bg" id="fuerza">
+            <?php include 'fuerza.php'; ?>
+        </section>        
 
-    <section class="container-fluid sections" id="fuerza">
-        <?php include 'fuerza.php'; ?>
-    </section>        
-
-    <section class="container-fluid sections" id="footer">
-        <?php //include 'footer.php'; ?>
-    </section>        
+        <section class="section sections full-bg" id="footer">
+            <?php //include 'footer.php'; ?>
+        </section>      
     
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -67,6 +65,10 @@
     <script>
         $(document).ready(function() { 
 
+            /*$('.carousel').carousel({
+              interval: false
+            });*/
+
             $('#carousel-main').carousel({
               interval: 7000
             });
@@ -77,10 +79,91 @@
 
             $('#carouselnovedades').carousel({
               interval: 5000
-            });
+            });/*
+
+            $(window).scroll(function() {
+                
+                //console.log('hola');
+                var main = document.getElementById('main');
+                var comencemos = document.getElementById('comencemos');
+               /* if (esVisible(main)) {
+                    detectar_scroll('#main');
+                }
+                if (esVisible(comencemos)) {
+                    //detectar_scroll('#comencemos');
+                    detectar_scroll();
+                }*/
+                /*console.log(esVisible(main));
+                if (esVisible(main)) {
+                    //console.log('hey');
+                    $('html, body').animate({
+                        scrollTop: $('#comencemos').offset().top - 20 //#DIV_ID is an example. Use the id of your destination on the page
+                    }, 'slow');
+                }
+                
+              /*$("span").css("display", "inline").fadeOut("slow");*/
+            /*});
 
 
-            function fullscreen (e){
+            function esVisible(elem){
+                /* Ventana de Visualización*/
+            /*    var posTopView = $(window).scrollTop();
+                var posButView = posTopView + $(window).height();
+                /* Elemento a validar*/
+            /*    var elemTop = $(elem).offset().top;
+                var elemBottom = elemTop + $(elem).height();
+                /* Comparamos los dos valores tanto del elemento como de la ventana*/
+            /*    return ((elemBottom < posButView && elemBottom > posTopView) || (elemTop >posTopView && elemTop< posButView));
+            }
+
+
+/*            function detectar_scroll() {
+                var obj = $("#portal-ces");    //objeto sobre el que quiero detectar scroll
+                //console.log(obj);
+                var obj_top = obj.scrollTop()   //scroll vertical inicial del objeto
+                obj.scroll(function(){
+                    var obj_act_top = $(this).scrollTop();
+                    console.log(obj_top, obj_act_top);  //obtener scroll top instantaneo
+                    if(obj_act_top > obj_top){
+                        //scroll hacia abajo
+                        
+                        console.log('Abajo'+section_id);
+                        
+                    }else{
+                        //scroll hacia arriba
+                        
+                        console.log('Arriba'+section_id);
+                        
+                    }
+
+                    obj_top = obj_act_top;                  //almacenar scroll top anterior
+                });
+            }*/
+
+
+            
+
+            /*var myFullpage = new fullpage('#fullpage', {
+                continuousVertical: true,
+                //anchors: ['main', 'comencemos', 'portal-ces','panal','araña','mi-autofin','novedades','fuerza'],
+
+                afterLoad: function(anchorLink, index) {
+                    if (index == 0) {
+                        $('#carousel-main').carousel({
+                          interval: 7000
+                        });
+                    }
+                    //console.log(anchorLink, index);
+                },
+
+               afterRender: function(){
+            
+                },
+              
+            });*/
+
+
+            /*function fullscreen (e){
                   if (e.webkitRequestFullScreen) {
                     e.webkitRequestFullScreen();
                   } else if(e.mozRequestFullScreen) {
@@ -89,7 +172,7 @@
               }
             document.getElementById('botonparaactivar').onclick = function(){
                 fullscreen(document.getElementById('video-autofin'));
-            }
+            }*/
 
         });
     </script>
