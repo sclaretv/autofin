@@ -43,6 +43,8 @@
             <?php include 'mi-autofin.php'; ?>
         </section>
 
+        
+
         <section class=" full-bg sections" id="mi-autofingps">
             <?php include 'novedades/mi-autofingps.php'; ?>
         </section>

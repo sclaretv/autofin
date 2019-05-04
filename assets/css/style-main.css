@@ -189,6 +189,11 @@ body {
     padding-left: 40px;
 }
 
+.logo-productos3 {
+    padding-top: 5%;
+    padding-left: 40px;
+}
+
 .text-productos {
   padding-left: 10%;
   padding-right: 20%;
@@ -217,7 +222,7 @@ body {
   text-align: justify;
   letter-spacing: 1px;
   line-height: 20px;
-  
+  font-size: 14px;
 }
 
 .iconos-productos {
@@ -463,4 +468,14 @@ body {
     position: absolute;
     z-index: 1;
     background-color: white;
+}
+
+.iconos-buho {
+    width: 20%;
+}
+
+.text-buho {
+  color: #949596;
+  font-size: 10px;
+  line-height: normal;
 }

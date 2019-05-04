@@ -28,13 +28,13 @@
         
         <div class="carousel-inner">
           <div class="carousel-item item-carousel active">
-            <img src="assets/img/AUTOFIN-MIAUTOFIN-BUHO-1.png" class="d-block mx-auto img-carousel-products" width="40%" alt="">
+            <img src="assets/img/AUTOFIN-MIAUTOFIN-BUHO-1.png" class="d-block mx-auto img-carousel-products3" width="40%" alt="">
           </div>
           <div class="carousel-item item-carousel ">
-            <img src="assets/img/AUTOFIN-MIAUTOFIN-BUHO-2.png" class="d-block mx-auto img-carousel-products" width="40%" alt="">
+            <img src="assets/img/AUTOFIN-MIAUTOFIN-BUHO-2.png" class="d-block mx-auto img-carousel-products3" width="40%" alt="">
           </div>
           <div class="carousel-item item-carousel ">
-            <img src="assets/img/AUTOFIN-MIAUTOFIN-BUHO-3.png" class="d-block mx-auto img-carousel-products" width="40%" alt="">
+            <img src="assets/img/AUTOFIN-MIAUTOFIN-BUHO-3.png" class="d-block mx-auto img-carousel-products3" width="40%" alt="">
           </div>
         </div>
       </div>
@@ -52,13 +52,54 @@
 
     <div class="descripcion-productos" id="producto-buho">
 
-      <div class="logo-productos2">
+      <div class="logo-productos3">
           <img src="assets/img/logotipo-buho.svg" width="195" height="80" alt="">
       </div>
 
       <div class="text-productos3">
          <p>Aplicación móvil que te permite generar nuevas ventas en un proceso autónomo de cara al cliente con la posibilidad de incluir la retoma.</p>
       </div>
+
+      <ul class="list-inline text-center">
+        <li class="list-inline-item iconos-buho">
+          <img src="assets/icons/autofin-icono-buho-1.svg"   width="40%" alt=""  aria-hidden=true>
+          <p class="text-buho">Marca, modelo, versión, año</p>
+        </li>
+        <li class="list-inline-item iconos-buho">
+          <img src="assets/icons/autofin-icono-buho-2.svg"   width="40%" alt=""  aria-hidden=true>
+          <p class="text-buho">Precio de referencia&nbsp;&nbsp;</p>
+        </li>
+        <li class="list-inline-item iconos-buho">
+          <img src="assets/icons/autofin-icono-buho-3.svg"   width="40%" alt=""  aria-hidden=true>
+          <p class="text-buho">Evalúo de crédito por el monto</p>
+        </li>
+      </ul>
+
+      <ul class="list-inline text-center">
+        <li class="list-inline-item iconos-buho">
+          <img src="assets/icons/autofin-icono-buho-4.svg"   width="40%" alt=""  aria-hidden=true>
+          <p class="text-buho">Simulación de alternativas</p>
+        </li>
+        <li class="list-inline-item iconos-buho">
+          <img src="assets/icons/autofin-icono-buho-5.svg"   width="40%" alt=""  aria-hidden=true>
+          <p class="text-buho">Cuota por el valor del vehiculo</p>
+        </li>
+        <li class="list-inline-item iconos-buho">
+          <img src="assets/icons/autofin-icono-buho-6.svg"   width="40%" alt=""  aria-hidden=true>
+          <p class="text-buho">Alternativas de vehiculos con el mismo precio</p>
+        </li>
+      </ul>
+
+      <ul class="list-inline text-center">
+        <li class="list-inline-item iconos-buho">
+          <img src="assets/icons/autofin-icono-buho-7.svg"   width="40%" alt=""  aria-hidden=true>
+          <p class="text-buho">Proceso de compra autónomo</p>
+        </li>
+        <li class="list-inline-item iconos-buho">
+          <img src="assets/icons/autofin-icono-buho-8.svg"   width="40%" alt=""  aria-hidden=true>
+          <p class="text-buho">Proceso de venta asistido</p>
+        </li>
+      </ul>
 
       <div class="d-xl-none d-lg-none d-md-block d-sm-block">
         <ul class="list-inline text-center">
