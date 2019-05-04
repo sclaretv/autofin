@@ -194,11 +194,30 @@ body {
   
 }
 
+.text-productos2 {
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #949596;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 20px;
+  
+}
+
 .iconos-productos {
     width: 8%;
     height: 100%;
     padding-bottom: 10%;
     padding-left: 2%;
+    position: absolute;
+}
+
+.iconos-productos3 {
+    width: 8%;
+    height: 100%;
+    left: 90%;
+    padding-bottom: 10%;
+    margin-left: 3%;
     position: absolute;
 }
 
@@ -296,6 +315,17 @@ body {
     position: absolute;
 }
 
+
+.div5 {
+    margin-top: -25px;
+    height: 400px;
+    background-color: #d9b413;
+    left: 48%;
+    z-index: 3;
+    right: 8%;
+    position: absolute;
+}
+
 .descripcion-productos {
     height: 100%;
     background-color: #000;
@@ -303,6 +333,17 @@ body {
     background-size: auto, cover;
     background-repeat: repeat, no-repeat;
     left: 48%;
+    z-index: 4;
+    position: absolute;
+}
+
+.descripcion-productos2 {
+    height: 100%;
+    background-color: #000;
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+    right: 52%;
     z-index: 4;
     position: absolute;
 }
@@ -323,6 +364,10 @@ body {
   padding-top: 35%;
 }
 
+.img-carousel-products3 {
+  padding-top: 29%;
+}
+
 #producto-portalces {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(84, 84, 84, .9)), to(rgba(84, 84, 84, .9))), url(../img/fondo-portalces.jpg);
   background-image: linear-gradient(25deg, rgb(8, 8, 8), rgba(49, 48, 48, 0.9)), url(../img/fondo-portalces.jpg);  
@@ -331,4 +376,14 @@ body {
 #producto-panal {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(84, 84, 84, .9)), to(rgba(84, 84, 84, .9))), url(../img/fondo-panal.jpg);
   background-image: linear-gradient(25deg, rgb(8, 8, 8), rgba(49, 48, 48, 0.9)), url(../img/fondo-panal.jpg);  
+}
+
+#producto-miautofin {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(84, 84, 84, .9)), to(rgba(84, 84, 84, .9))), url(../img/fondo-miautofin.jpg);
+  background-image: linear-gradient(25deg, rgb(8, 8, 8), rgba(49, 48, 48, 0.9)), url(../img/fondo-miautofin.jpg);  
+}
+
+#producto-trinidad {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(84, 84, 84, .9)), to(rgba(84, 84, 84, .9))), url(../img/fondo-trinidad.jpg);
+  background-image: linear-gradient(25deg, rgb(8, 8, 8), rgba(49, 48, 48, 0.9)), url(../img/fondo-trinidad.jpg);  
 }
