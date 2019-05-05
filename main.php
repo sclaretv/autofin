@@ -1,11 +1,6 @@
     
     <div class="container main-auto-moto">
       <!-- Sección main -->
-      <div class="row">
-        <div class="col-lg-1">          
-        </div> 
-
-        <div class="col-lg-10">
             
             <div id="carousel-main" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
@@ -67,17 +62,6 @@
                   <img src="assets/icons/autofin-icono-web-2.svg"  width="30" height="30" alt=""  aria-hidden=true>
                 </li>
               </ul>
-            </div>
-          
-        </div> 
-
-        <div class="col-lg-1">
-        </div> 
-
-        
-      </div>
-
-      
+            </div>      
        
     </div>
-
