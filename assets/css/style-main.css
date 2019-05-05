@@ -454,7 +454,7 @@ body {
 }
 
 .slide-previous {
-      height: 450px;
+    height: 450px;
     width: 5%;
     left: 13%;
     position: absolute;
@@ -463,12 +463,12 @@ body {
 }
 
 .slide-next {
-  height: 450px;
-    width: 5%;
-    right: 13%;
+    height: 450px;
+    width: 1%;
+    left: 85%;
     position: absolute;
     z-index: 1;
-    background-color: white;
+    background-color: #ffffff00;
 }
 
 .iconos-buho {

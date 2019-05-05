@@ -1,5 +1,5 @@
 <div class="slide-previous">
-  
+  <a href="#mi-autofingps" id="prev-buho" class="btn btn-default">Prev</a>
 </div>
 <div class="div0">
   <!---->
@@ -129,4 +129,6 @@
 
 
 </div>
-<!--<div class="slide-next"></div>-->
+<div class="slide-next">
+  <a href="#mi-autofingps" id="next-buho" class="btn btn-default">Next</a>
+</div>

@@ -1,3 +1,6 @@
+<div class="slide-previous">
+  <a href="#buho" id="prev-miautofingps" class="btn btn-default">Prev</a>
+</div>
 <div class="div1">
     <div class="iconos-productos iconos-productos2 d-none d-lg-block d-xl-block">
       <ul class="list-unstyled my-auto">
@@ -81,4 +84,7 @@
   
   </div>
 
+</div>
+<div class="slide-next">
+  <a href="#buho" id="next-miautofingps" class="btn btn-default">Next</a>
 </div>

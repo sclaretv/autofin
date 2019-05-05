@@ -45,11 +45,11 @@
 
         
 
-        <section class=" full-bg sections" id="mi-autofingps">
+        <section class=" full-bg sections d-none" id="mi-autofingps">
             <?php include 'novedades/mi-autofingps.php'; ?>
         </section>
 
-        <section class=" full-bg sections" id="buho">
+        <section class=" full-bg sections d-none" id="buho">
             <?php include 'novedades/buho.php'; ?>
         </section>
 
@@ -85,7 +85,42 @@
 
             $('#carouselnovedades').carousel({
               interval: 5000
-            });/*
+            });
+
+            $("#btn-novedades").click(function() {
+              
+              $("#mi-autofingps").removeClass("d-none");
+              
+            });
+
+            $("#prev-miautofingps").click(function() {
+              $("#mi-autofingps").addClass("d-none");
+              $("#buho").removeClass("d-none");
+            });
+
+            $("#next-miautofingps").click(function() {
+              $("#mi-autofingps").addClass("d-none");
+              $("#buho").removeClass("d-none");
+            });
+
+            $("#prev-buho").click(function() {
+              $("#buho").addClass("d-none");
+              $("#mi-autofingps").removeClass("d-none");
+            });
+
+            $("#next-buho").click(function() {
+              $("#buho").addClass("d-none");
+              $("#mi-autofingps").removeClass("d-none");
+            });
+
+            /*$("#prev-buho").click(function(){
+                $("#mi-autofingps").fadeIn();
+            });*/
+            
+            /*$(".btn2").click(function(){
+                $("p").fadeIn();
+            });*/
+            /*
 
             $(window).scroll(function() {
                 

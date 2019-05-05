@@ -56,7 +56,7 @@
       <div class="text-productos">
         <p>Aplicación móvil que entrega un medio de contacto permanente con la cartera de clientes para renovación, nuevas ventas y pagos de cuota instantáneos.</p>
 
-        <a href="#mi-autofingps" class="btn btn-sm btn-autofin text-button text-white">NOVEDADES</a>
+        <a href="#mi-autofingps" id="btn-novedades" class="btn btn-sm btn-autofin text-button text-white">NOVEDADES</a>
       </div>
 
       <div class="d-xl-none d-lg-none d-md-block d-sm-block">
