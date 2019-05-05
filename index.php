@@ -65,7 +65,7 @@ fullPage.js Demo Page</title>
             </section>
 
             <section class="  section  " id="buho">
-                <?php //include 'novedades/buho.php'; ?>
+                <?php include 'novedades/buho.php'; ?>
             </section>
 
             <section class="  section " id="fuerza">
@@ -120,6 +120,26 @@ fullPage.js Demo Page</title>
               
               $("#mi-autofingps").removeClass("hide");
 
+            });
+
+             $("#prev-miautofingps").click(function() {
+              $("#mi-autofingps").addClass("d-none");
+              $("#buho").removeClass("d-none");
+            });
+
+            $("#next-miautofingps").click(function() {
+              $("#mi-autofingps").addClass("d-none");
+              $("#buho").removeClass("d-none");
+            });
+
+            $("#prev-buho").click(function() {
+              $("#buho").addClass("d-none");
+              $("#mi-autofingps").removeClass("d-none");
+            });
+
+            $("#next-buho").click(function() {
+              $("#buho").addClass("d-none");
+              $("#mi-autofingps").removeClass("d-none");
             });
 
 

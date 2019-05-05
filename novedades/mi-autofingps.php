@@ -48,7 +48,7 @@
 
   <div class="box3">
 
-    <div class="box3-descripcion" id="box3-portalces">
+    <div class="box3-descripcion" id="box3-miautofingps">
 
       <div class="box3-logo">
         <img src="assets/img/logotipo-miautofingps-blanco.svg" width="195" height="80" alt="">

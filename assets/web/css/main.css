@@ -280,6 +280,19 @@ background: rgba(255,255,255,0.8);
   z-index: 1;
 }
 
+.box1-2 {
+  position: relative;
+  width: 800px;
+  height: 440px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px 370px 40px 15px;
+
+  background-color:rgb(44, 43, 43);
+  z-index: 1;
+}
+
+
 .box-iconos {
     width: 15px;
     height: 100%;
@@ -296,6 +309,14 @@ background: rgba(255,255,255,0.8);
     position: absolute;
 }
 
+.box-iconos3 {
+    width: 15px;
+    height: 100%;
+    padding-top: 160px;
+    padding-bottom: 20px;
+    position: absolute;
+}
+
 .box-iconos-li {
 	padding-bottom: 7px;
 }
@@ -304,6 +325,17 @@ background: rgba(255,255,255,0.8);
 	width: 320px;
   	margin-top: -25px;
     height: 450px;
+    background-color: #d9b413;
+    left: 8%;
+    z-index: 3;
+    right: 52%;
+    position: absolute;
+}
+
+.box2-2 {
+	width: 320px;
+  	height: 450px;
+  	margin-top: -5px;
     background-color: #d9b413;
     left: 8%;
     z-index: 3;
@@ -331,6 +363,21 @@ background: rgba(255,255,255,0.8);
   background-image: linear-gradient(25deg, rgb(8, 8, 8), rgba(49, 48, 48, 0.9)), url(../img/fondo-portalces.jpg);  
 }
 
+#box3-miautofin {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(84, 84, 84, .9)), to(rgba(84, 84, 84, .9))), url(../img/fondo-miautofin.jpg);
+  background-image: linear-gradient(25deg, rgb(8, 8, 8), rgba(49, 48, 48, 0.9)), url(../img/fondo-miautofin.jpg);  
+}
+
+#box3-miautofingps {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(84, 84, 84, .9)), to(rgba(84, 84, 84, .9))), url(../img/fondo-miautofingps.jpg);
+  background-image: linear-gradient(25deg, rgb(8, 8, 8), rgba(49, 48, 48, 0.9)), url(../img/fondo-miautofingps.jpg);  
+}
+
+#box3-buho {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(84, 84, 84, .9)), to(rgba(84, 84, 84, .9))), url(../img/fondo-buho-gris.jpg);
+  background-image: linear-gradient(25deg, rgb(8, 8, 8), rgba(49, 48, 48, 0.85)), url(../img/fondo-buho-gris.jpg);
+}
+
 
 .box3-logo {
     padding-top: 100px;
@@ -338,16 +385,29 @@ background: rgba(255,255,255,0.8);
     padding-right: 50px;
 }
 
+.box3-logo2 {
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
 .box3-text {
-  padding-left: 10%;
-  padding-right: 20%;
+  padding-left: 40px;
+  padding-right: 50px;
   color: #949596;
   text-align: justify;
   letter-spacing: 1px;
   line-height: 20px;
-  
 }
 
+.box3-text2 {
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #949596;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-size: 14px;
+}
 
 .slide-previous {
 	height: 400px;
@@ -367,4 +427,14 @@ background: rgba(255,255,255,0.8);
     position: absolute;
     z-index: 1;
     background-color: #ffffff00;
+}
+
+.iconos-buho {
+    width: 100px;
+}
+
+.text-buho {
+  color: #949596;
+  font-size: 10px;
+  line-height: normal;
 }
