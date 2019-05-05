@@ -46,7 +46,7 @@ fullPage.js Demo Page</title>
                 <?php include 'portal-ces.php'; ?>
             </section>        
             <section class="  section " id="trinidad">
-                <?php //include 'trinidad.php'; ?>
+                <?php include 'trinidad.php'; ?>
             </section>        
             <section class="  section " id="panal">
                 <?php //include 'panal.php'; ?>
