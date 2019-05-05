@@ -43,7 +43,7 @@ fullPage.js Demo Page</title>
 
             <!-- secciones de productos -->
             <section class="  section " id="portal-ces">
-                <?php //include 'portal-ces.php'; ?>
+                <?php include 'portal-ces.php'; ?>
             </section>        
             <section class="  section " id="trinidad">
                 <?php //include 'trinidad.php'; ?>
@@ -55,7 +55,7 @@ fullPage.js Demo Page</title>
                 <?php //include 'spider.php'; ?>
             </section>        
             <section class="  section " id="mi-autofin">
-                <?php //include 'mi-autofin.php'; ?>
+                <?php include 'mi-autofin.php'; ?>
             </section>
 
             
@@ -109,6 +109,10 @@ fullPage.js Demo Page</title>
              $(".btn-comencemos-volver").click(function() {
               $("#main").removeClass("comencemos");
 
+            });
+
+             $('.carousel_productos').carousel({
+              interval: 5000
             });
 
       }});
