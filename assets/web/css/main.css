@@ -347,3 +347,24 @@ background: rgba(255,255,255,0.8);
   line-height: 20px;
   
 }
+
+
+.slide-previous {
+	height: 400px;
+    width: 100px;
+    margin-top: 150px;
+    left: 450px;
+    position: absolute;
+    z-index: 1;
+    background-color: #ffffff00;
+}
+
+.slide-next {
+   	height: 400px;
+    width: 100px;
+    margin-top: 150px;
+    right: 410px;
+    position: absolute;
+    z-index: 1;
+    background-color: #ffffff00;
+}

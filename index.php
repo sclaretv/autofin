@@ -60,11 +60,11 @@ fullPage.js Demo Page</title>
 
             
 
-            <section class="  section  d-none" id="mi-autofingps">
-                <?php //include 'novedades/mi-autofingps.php'; ?>
+            <section class="  section  hide" id="mi-autofingps">
+                <?php include 'novedades/mi-autofingps.php'; ?>
             </section>
 
-            <section class="  section  d-none" id="buho">
+            <section class="  section  " id="buho">
                 <?php //include 'novedades/buho.php'; ?>
             </section>
 
@@ -114,6 +114,14 @@ fullPage.js Demo Page</title>
              $('.carousel_productos').carousel({
               interval: 5000
             });
+
+
+             $("#btn-novedades").click(function() {
+              
+              $("#mi-autofingps").removeClass("hide");
+
+            });
+
 
       }});
 
