@@ -35,11 +35,10 @@ fullPage.js Demo Page</title>
   <div id="main-content">
 
 
-    <section id="main" class="section">
-      <?php include 'main.php'; ?>
-    </section>
-               <section  id="comencemos" class=" section">
-                <?php //include 'comencemos.php'; ?>
+            <section id="main" class="section">
+              <?php include 'main.php'; ?>
+
+              <?php include 'comencemos.php'; ?>
             </section>        
 
             <!-- secciones de productos -->
@@ -99,6 +98,16 @@ fullPage.js Demo Page</title>
               $("#box-y-moto").removeClass("hide");
               $(".btn-auto").removeClass("active");
               $(".btn-moto").addClass("active");
+
+            });
+
+             $(".btn-comencemos").click(function() {
+              $("#main").addClass("comencemos");
+
+            });
+
+             $(".btn-comencemos-volver").click(function() {
+              $("#main").removeClass("comencemos");
 
             });
 

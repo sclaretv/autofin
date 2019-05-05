@@ -1,4 +1,5 @@
-               <div class="box-y">
+<div id="principal">
+   <div class="box-y" >
 
                   
 
@@ -29,7 +30,7 @@
 
                     En Autofin sabemos el auto que necesitan nuestros clientes y que tú puedes ofrecerles, es por eso que ponemos a tu alcance todos nuestros servicios tecnológicos y las mejores alternativas en financiamiento.</p>
 
-                    <a href="#" class="btn button-box-y">
+                    <a href="#" class="btn button-box-y btn-comencemos">
 
                     COMENCEMOS</a>
 
@@ -51,7 +52,7 @@
 
                     En Autofin sabemos la moto que necesitan nuestros clientes y que tú puedes ofrecerles, es por eso que ponemos a tu alcance todos nuestros servicios tecnológicos y las mejores alternativas en financiamiento.</p>
 
-                    <a href="#" class="btn button-box-y">
+                    <a href="#" class="btn button-box-y btn-comencemos">
 
                     COMENCEMOS</a>
 
@@ -59,3 +60,6 @@
 
                 </div>
             </div>
+</div>
+                
+
