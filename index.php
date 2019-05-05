@@ -169,16 +169,55 @@
             });*/
 
 
-            function fullscreen (e){
-                if (e.webkitRequestFullScreen) {
-                    e.webkitRequestFullScreen();
-                  } else if(e.mozRequestFullScreen) {
-                    e.mozRequestFullScreen();
+            /*function fullscreen (e){
+            if (e.webkitRequestFullScreen) {
+                e.webkitRequestFullscreen();
+              } else if(e.mozRequestFullScreen) {
+                e.mozRequestFullscreen();
+              }
+            }
+
+            document.getElementById('botonparaactivar').onclick = function(){
+                fullscreen(document.getElementById('video-autofin'));
+            }*/
+
+
+              var videoElement = document.getElementById("video-autofin");
+
+    
+              function toggleFullScreen() {
+                if (!document.mozFullScreen && !document.webkitFullScreen) {
+                  if (videoElement.mozRequestFullScreen) {
+                    videoElement.mozRequestFullScreen();
+                  } else {
+                    videoElement.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT);
+                  }
+                } else {
+                  if (document.mozCancelFullScreen) {
+                    document.mozCancelFullScreen();
+                  } else {
+                    document.webkitCancelFullScreen();
                   }
                 }
-                document.getElementById('video-comencemos').onclick = function(){
-                    fullscreen(document.getElementById('video-autofin'));
+              }
+
+              document.getElementById('video-autofin').onclick = function(){
+               
+                toggleFullScreen();
+                if (videoElement.paused) {
+                    videoElement.play(); 
+                }  else  {
+                    videoElement.pause(); 
+                    videoElement.width = 560; 
                 }
+
+              }
+              
+              document.addEventListener("keydown", function(e) {
+                if (e.keyCode == 13) {
+                  toggleFullScreen();
+                }
+              }, false);
 
         });
     </script>
