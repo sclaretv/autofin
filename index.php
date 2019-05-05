@@ -52,7 +52,7 @@ fullPage.js Demo Page</title>
                 <?php //include 'panal.php'; ?>
             </section>        
             <section class="  section " id="araña">
-                <?php //include 'spider.php'; ?>
+                <?php include 'spider.php'; ?>
             </section>        
             <section class="  section " id="mi-autofin">
                 <?php include 'mi-autofin.php'; ?>
