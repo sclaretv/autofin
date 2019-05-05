@@ -1,67 +1,61 @@
-    
-    <div class="container main-auto-moto">
-      <!-- Sección main -->
-            
-            <div id="carousel-main" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  
-                  <div class="auto-moto div-auto" id="auto">
-                    <div class="row">
-                      <div class="col-lg-8 auto-moto-div">
-                        <p class="auto-moto-header text-yellow">¡TIENES EL AUTO QUE NUESTROS CLIENTES QUIEREN Y NOSOTROS EL MEJOR FINANCIAMIENTO Y TECNOLOGÍA!</p>
-                        <div class="d-none d-lg-block d-xl-block">
-                          <p class="text-justify auto-moto-text text-white">En Autofin sabemos el auto que necesitan nuestros clientes y que tú puedes ofrecerles, es por eso que ponemos a tu alcance todos nuestros servicios tecnológicos y las mejores alternativas en financiamiento.</p>
-                          <a href="#comencemos" class="btn btn-sm btn-autofin text-button text-white">COMENCEMOS</a>
-                        </div>
-                      </div>
-                      <div class="col-lg-4">
-                      </div>
-                    </div>
-                  </div>
+               <div class="box-y">
 
-                  <div class="d-xl-none d-lg-none d-md-block d-sm-block div-auto">
-                    <p class="text-justify auto-moto-text text-white">En Autofin sabemos el auto que necesitan nuestros clientes y que tú puedes ofrecerles, es por eso que ponemos a tu alcance todos nuestros servicios tecnológicos y las mejores alternativas en financiamiento.</p>
-                    <a href="#comencemos" class="btn btn-sm btn-autofin text-button text-white">COMENCEMOS</a>
+                  
+
+                  <div class="controles">
+
+                    <ul class="list-inline">
+                      <li class="list-inline-item btn-auto active">
+                        <a  id="control-auto"> <img src="assets/icons/autofin-icono-web-1.svg"  width="30" height="30" alt=""  aria-hidden=true></a>
+                      </li>
+                      <li class="list-inline-item btn-moto">
+                         <a  id="control-moto"><img src="assets/icons/autofin-icono-web-2.svg"  width="30" height="30" alt=""  aria-hidden=true></a>
+                      </li>
+                    </ul>
+                </div>
+
+
+                <div id="box-y-auto">
+                  
+                  <img src="assets/img/auto.png"   class="auto">
+
+                  <div class="contenido-box-y">
+
+                    <h4 class="titulo-box-y">
+
+                      ¡TIENES EL AUTO QUE NUESTROS CLIENTES QUIEREN Y NOSOTROS EL MEJOR FINANCIAMIENTO Y TECNOLOGÍA!</h4>
+
+                    <p class="text-box-y">
+
+                    En Autofin sabemos el auto que necesitan nuestros clientes y que tú puedes ofrecerles, es por eso que ponemos a tu alcance todos nuestros servicios tecnológicos y las mejores alternativas en financiamiento.</p>
+
+                    <a href="#" class="btn button-box-y">
+
+                    COMENCEMOS</a>
+
                   </div>
 
                 </div>
 
-                <div class="carousel-item">
+                 <div id="box-y-moto" class="hide">
                   
-                  <div class="auto-moto div-moto" id="moto">
-                    <div class="row">
-                      <div class="col-lg-8 auto-moto-div">
-                        <p class="auto-moto-header text-yellow">¡TIENES LA MOTO QUE NUESTROS CLIENTES QUIEREN Y NOSOTROS EL MEJOR FINANCIAMIENTO Y TECNOLOGÍA!</p>
-                        <div class="d-none d-lg-block d-xl-block">
-                          <p class="text-justify auto-moto-text text-white">En Autofin sabemos la moto que necesitan nuestros clientes y que tú puedes ofrecerles, es por eso que ponemos a tu alcance todos nuestros servicios tecnológicos y las mejores alternativas en financiamiento.</p>
-                          <a href="#comencemos" class="btn btn-sm btn-autofin text-button text-white">COMENCEMOS</a>
-                        </div>
-                      </div>
-                      <div class="col-lg-4">
-                      </div>
-                    </div>
-                  </div>
+                  <img src="assets/img/moto.png"   class="moto">
 
-                  <div class="d-xl-none d-lg-none d-md-block d-sm-block div-moto">
-                    <p class="text-justify auto-moto-text text-white">En Autofin sabemos la moto que necesitan nuestros clientes y que tú puedes ofrecerles, es por eso que ponemos a tu alcance todos nuestros servicios tecnológicos y las mejores alternativas en financiamiento.</p>
-                    <a href="#comencemos" class="btn btn-sm btn-autofin text-button text-white">COMENCEMOS</a>
+                  <div class="contenido-box-y">
+
+                    <h4 class="titulo-box-y">
+
+                      ¡TIENES LA MOTO QUE NUESTROS CLIENTES QUIEREN Y NOSOTROS EL MEJOR FINANCIAMIENTO Y TECNOLOGÍA!</h4>
+
+                    <p class="text-box-y">
+
+                    En Autofin sabemos la moto que necesitan nuestros clientes y que tú puedes ofrecerles, es por eso que ponemos a tu alcance todos nuestros servicios tecnológicos y las mejores alternativas en financiamiento.</p>
+
+                    <a href="#" class="btn button-box-y">
+
+                    COMENCEMOS</a>
+
                   </div>
 
                 </div>
-              </div>
-
             </div>
-
-            <div class="botones-main">
-              <ul class="list-inline">
-                <li data-target="#carousel-main" data-slide-to="0" class="list-inline-item btn-auto active">
-                  <img src="assets/icons/autofin-icono-web-1.svg"  width="30" height="30" alt=""  aria-hidden=true>
-                </li>
-                <li data-target="#carousel-main" data-slide-to="1" class="list-inline-item btn-moto">
-                  <img src="assets/icons/autofin-icono-web-2.svg"  width="30" height="30" alt=""  aria-hidden=true>
-                </li>
-              </ul>
-            </div>      
-       
-    </div>

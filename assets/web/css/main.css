@@ -1,0 +1,225 @@
+*,*:after,*:before{
+margin:0;
+padding:0;
+box-sizing:inherit
+}
+
+body,html{
+height:100%
+}
+ 
+body{
+font-smoothing:antialiased;
+text-rendering:optimizeLegibility;
+-webkit-text-size-adjust:none;
+-ms-text-size-adjust:none;
+text-size-adjust:none;
+overflow:hidden
+}
+
+body.no-touch{
+overflow:visible
+}
+
+
+#cover-page{
+
+	position: fixed;
+	top: 0;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	height:100%;
+	z-index: 100;
+	background: #000
+}
+
+#main-content{
+height:100%
+}
+
+.header{
+	position: fixed;
+	top: 0;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	height:80px;
+	z-index: 10;
+	background: red;
+}
+
+.bg-cover {
+   background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+
+.section{
+position:relative;
+width:100%;
+height:100%;
+padding-top:80px;
+overflow:hidden;
+
+box-sizing:border-box;
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+-webkit-box-pack:center;
+-ms-flex-pack:center;
+justify-content:center;
+-webkit-box-align:center;
+-ms-flex-align:center;
+align-items:center;
+
+
+background-color: #000;
+background-image: url(../img/fondo-sections.png);
+ background-repeat: no-repeat;
+	 background-position: center;
+}
+
+
+
+#main{
+	 background-image: url(../img/fondo-main.png) ; 
+	 background-repeat: no-repeat;
+	 background-position: center;
+}
+
+#comencemos {  
+ background-image: url(../img/fondo-sections.png);
+  background-repeat: no-repeat;
+	 background-position: center;
+
+}
+
+#fuerza-fin { 
+  background-image: url(../img/fondo-final.png); 
+   background-repeat: no-repeat;
+	 background-position: center;
+}
+
+.slide-navigation{
+position:fixed;
+top:50%;
+bottom:0;
+right:20px;
+text-align:center
+}
+.slide-navigation>li{
+position:relative;
+display:block;
+margin-bottom:12px
+}
+.slide-navigation a{
+display:block;
+height:8px;
+width:8px; 
+border-radius:4px;
+background: rgba(255,255,255,0.4);
+z-index:1;
+-webkit-transition:all 0.4s ease;
+transition:all 0.4s ease
+}
+.slide-navigation a.is-active{
+background: rgba(255,255,255,0.8);
+} 
+
+
+
+
+
+
+.box-y {
+  position: relative;
+  width: 800px;
+  height: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 40px 370px 40px 40px;
+  border-style: solid;
+  border-width: 2px;
+  border-color:  #d9b413;
+  color: #fff;
+}
+
+.titulo-box-y {
+  	margin-bottom: 10px;
+  	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	 font-size: 23px;
+	color: #d9b413;
+	text-transform: uppercase;
+	letter-spacing: 0.2px;
+	line-height: 30px;
+}
+
+.text-box-y {
+  margin-bottom: 20px;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+}
+
+.button-box-y {
+ background-color: rgba(0,0,0,0);
+  color: white;
+
+    border-style: solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-color: #949596;
+  border-radius: 0px;
+  border-width: 3px;
+}
+
+.controles {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: auto;
+  bottom: -50px;
+  width: 120px;
+  height: 40px;
+}
+
+ 
+
+.contenido-box-y{
+  position: relative;
+  z-index: 10;
+}
+
+.auto {
+  position: absolute;
+  margin-top: 144px;
+  margin-left: 98px;
+    width: 752px;
+}
+
+.moto {
+    position: absolute;
+    margin-top: 60px;
+    width: 950px;
+}
+
+.btn-auto, .btn-moto {
+	opacity: 0.5;
+}
+
+.btn-auto.active, .btn-moto.active {
+	opacity:1;
+}
+
+
+.btn-auto {
+}
+
+.btn-moto {
+  margin-left: -10px;
+}
