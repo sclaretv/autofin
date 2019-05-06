@@ -419,6 +419,11 @@ background: rgba(255,255,255,0.8);
   background-image: linear-gradient(25deg, rgb(8, 8, 8), rgba(49, 48, 48, 0.9)), url(../img/fondo-trinidad.jpg);  
 }
 
+#box3-panal {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(84, 84, 84, .9)), to(rgba(84, 84, 84, .9))), url(../img/fondo-panal.jpg);
+  background-image: linear-gradient(25deg, rgb(8, 8, 8), rgba(49, 48, 48, 0.9)), url(../img/fondo-panal.jpg);  
+}
+
 #box3-spider {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(84, 84, 84, .9)), to(rgba(84, 84, 84, .9))), url(../img/fondo-spider.jpg);
   background-image: linear-gradient(25deg, rgb(8, 8, 8), rgba(49, 48, 48, 0.9)), url(../img/fondo-spider.jpg);  
@@ -466,6 +471,11 @@ background: rgba(255,255,255,0.8);
 
 .box3-logo2 {
     padding-top: 30px;
+    padding-left: 40px;
+}
+
+.box3-logo3 {
+    padding-top: 80px;
     padding-left: 40px;
 }
 

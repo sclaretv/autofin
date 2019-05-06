@@ -49,7 +49,7 @@ fullPage.js Demo Page</title>
                 <?php include 'trinidad.php'; ?>
             </section>        
             <section class="  section " id="panal">
-                <?php //include 'panal.php'; ?>
+                <?php include 'panal.php'; ?>
             </section>        
             <section class="  section " id="araña">
                 <?php include 'spider.php'; ?>
