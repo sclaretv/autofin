@@ -2,7 +2,7 @@
     <div class="box-iconos4">
       <ul class="list-unstyled ">
         <li class="box-iconos-li">
-          <a href="https://www.youtube.com/watch?time_continue=34&v=WaFeIHV4C_U">
+          <a href="https://www.youtube.com/embed/WaFeIHV4C_U" class="link-video"  >
             <img src="assets/icons/autofin-icono-web-3.svg"  width="37" alt=""  aria-hidden=true>
           </a>
         </li>
@@ -68,7 +68,7 @@
       <div class="hide">    
           <ul class="list-inline text-center">
             <li class="list-inline-item">
-              <a href="https://www.youtube.com/watch?time_continue=34&v=WaFeIHV4C_U">
+              <a href="https://www.youtube.com/embed/WaFeIHV4C_U" class="link-video"  >
                 <img src="assets/icons/autofin-icono-web-3.svg"  width="37" alt=""  aria-hidden=true>
               </a>
             </li>

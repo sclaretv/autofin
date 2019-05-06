@@ -1,11 +1,16 @@
-<div class="slide-previous">
-  <a href="#buho" id="prev-miautofingps" class="btn btn-default">Prev</a>
-</div>
+
 <div class="box1">
+  <div class="slide-previous">
+    <a href="#buho" id="prev-miautofingps"  class="">uhg<i class="glyphicon glyphicon-menu-left"></i></a>
+  </div>
+  <div class="slide-next">
+    <a href="#buho" id="next-miautofingps" class=""><span class="glyphicon glyphicon-menu-right"></span></a>
+  </div>
+
     <div class="box-iconos2">
       <ul class="list-unstyled ">
         <li class="box-iconos-li">
-          <a href="https://www.youtube.com/watch?v=B1tQeVZVsdU">
+          <a href="https://www.youtube.com/embed/B1tQeVZVsdU" class="link-video"  >
             <img src="assets/icons/autofin-icono-web-3.svg"  width="37" alt=""  aria-hidden=true>
           </a>
         </li>
@@ -61,7 +66,7 @@
       <div class="hide">    
           <ul class="list-inline text-center">
             <li class="list-inline-item">
-              <a href="https://www.youtube.com/watch?v=B1tQeVZVsdU">
+              <a href="https://www.youtube.com/embed/B1tQeVZVsdU" class="link-video"  >
                 <img src="assets/icons/autofin-icono-web-3.svg"  width="37" alt=""  aria-hidden=true>
               </a>
             </li>
@@ -82,7 +87,4 @@
   
   </div>
 
-</div>
-<div class="slide-next">
-  <a href="#buho" id="next-miautofingps" class="btn btn-default">Next</a>
 </div>
