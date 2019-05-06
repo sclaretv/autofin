@@ -54,6 +54,7 @@ height:100%
 
 a:link {
 	text-decoration: none;
+	color: white;
 }
 
 .my-container {
@@ -75,7 +76,11 @@ a:link {
 }
 
 .nav-item:hover{
-	color: white
+	color: white;
+}
+
+.button-box-y:hover{
+	color: white;
 }
 
 .nav-item.logo {
@@ -157,7 +162,7 @@ background-image: url(../img/fondo-sections.png);
 
 }
 
-#fuerza-fin { 
+#fuerza.fin { 
   background-image: url(../img/fondo-final.png); 
    background-repeat: no-repeat;
 	 background-position: center;

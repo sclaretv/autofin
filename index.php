@@ -43,6 +43,8 @@
     </div>
     
   </header>
+
+
   <div id="main-content">
 
 
@@ -77,10 +79,8 @@
                 <?php include 'fuerza.php'; ?>
             </section>        
 
-            <section class="  section" id="fuerza-fin">
-                <?php include 'footer.php'; ?>
-            </section>
 </div>
+
 <div class="footer" style="display: none;" id="footer" >
 
       <div class="bg-black"  id="footer-contact">
@@ -139,14 +139,24 @@
     var page = new FullPage("#main-content",{
          pagination: true,  
          animationDuration: 800,
-         onLeave: function(index, nextIndex, direction){
-          if(index != 9){
+         onLeave: function(index){
+          if(index == 7){
               $("#footer").hide();
-            } else {
-              $("#footer").show();
+              $("#fuerza").removeClass("fin");
             }
           },
-         afterLoad:function(e){ 
+         afterLoad:function(index){ 
+
+           if(index != 7){
+              $("#footer").hide();
+              $("#fuerza").removeClass("fin");
+            } else {
+              setTimeout(function() {
+                $("#fuerza").addClass("fin");
+                $("#footer").fadeIn();
+              }, 1200);
+              
+            }
 
           $("#control-auto").click(function() {
               $("#box-y-moto").addClass("hide");
@@ -211,9 +221,10 @@
     $(".nav-item").click(function(e) {
               e.preventDefault();
 
-              console.log('aa');
               var num = parseInt($(this).data('key'));
               page.moveTo(num);
+              $("#main").removeClass("comencemos");
+
               
             });
 
