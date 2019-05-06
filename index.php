@@ -30,6 +30,17 @@
   <div id="cover-page"></div>
 
   <header class="header">
+
+    <div class="my-container">
+      <a class="nav-item" href="#portal-ces"> PORTAL CES </a>
+      <a class="nav-item" href="#trinidad"> TRINIDAD </a>
+      <a class="nav-item" href="#panal"> PANAL </a>
+       <a class="nav-item logo" href="#main"> <img src="assets/img/logotipo-autofin-blanco.svg" width="155" height="55" alt=""> </a>
+      <a class="nav-item" href="#araña"> ARAÑA </a>
+      <a class="nav-item" href="#mi-autofin"> MI AUTOFIN </a>
+      <a class="nav-item" href="#fuerza"> FUERZA </a>
+      
+    </div>
     
   </header>
   <div id="main-content">
@@ -71,42 +82,40 @@
             </section>
 </div>
 <div class="footer" id="footer" >
-  <div class="container-fluid ">
-        <div class="row bg-black" id="footer-contact">
-            <div class="col-lg-9 col-md-12" >
-              <div class="imagen-autofin">
-                <img src="assets/img/logotipo-autofin-blanco.svg" width="160" height="60" alt="">  
-              </div>
-            </div>
-            <div class="col-lg-2 col-sm-12">
-              <div class="contact-autofin">
-                <p class="">Contáctanos</p>
-                <p class="text-yellow ">+562 2235 0850</p>
-                <p class="">Lunes a Viernes de 09:00 a 18:00 hrs.</p>
-                <p class="">Rosario Norte 532. Oficina 1503, piso 15. Las Condes.</p>
-              </div>
-              
-            </div>
-        </div>
 
-        <div class="row bg-yellow" id="footer-social">
-          <nav class="navbar col-lg-12 ">
-            <div class="container">
-              <ul class="navbar-nav ">
-                <li class="nav-item li-footer">
-                  <a class="navbar-brand" href="http://www.autoﬁn.cl/blog/" target="_blank"><img src="assets/icons/icono-blog.svg"  width="25" height="25" alt=""></a>
-                </li>
-                <li class="nav-item li-footer">
-                  <a class="navbar-brand" href="https://www.facebook.com/autoﬁnchile" target="_blank"><img src="assets/icons/icono-facebook.svg"  width="25" height="25" alt=""></a>
-                </li>
-                <li class="nav-item li-footer">
-                  <a class="navbar-brand" href="https://www.instagram.com/autofin_chile/?hl=es-la" target="_blank"><img src="assets/icons/icono-instagram.svg"  width="25" height="25" alt=""></a>
-                </li>
-              </ul>
+      <div class="bg-black"  id="footer-contact">
+
+        <div class="my-container ">
+          <div class="row ">
+              <div class="col-lg-6" >
+                  <img src="assets/img/logotipo-autofin-blanco.svg" width="160" height="60" alt="">  
+              </div>
+              <div class="col-lg-6 ">
+                  <p class="">Contáctanos</p>
+                  <p class="text-yellow ">+562 2235 0850</p>
+                  <p class="">Lunes a Viernes de 09:00 a 18:00 hrs.</p>
+                  <p class="">Rosario Norte 532. Oficina 1503, piso 15. Las Condes.</p>                
+              </div>
           </div>
-          </nav>       
         </div>
-      </div> 
+      </div>
+      <div class="bg-yellow" id="footer-social">
+            
+              <div class="my-container text-right">
+                <ul>
+                  <li class=" li-footer">
+                    <a class="" href="http://www.autoﬁn.cl/blog/" target="_blank"><img src="assets/icons/icono-blog.svg"  width="25" height="25" alt=""></a>
+                  </li>
+                  <li class=" li-footer">
+                    <a class="" href="https://www.facebook.com/autoﬁnchile" target="_blank"><img src="assets/icons/icono-facebook.svg"  width="25" height="25" alt=""></a>
+                  </li>
+                  <li class=" li-footer">
+                    <a class="" href="https://www.instagram.com/autofin_chile/?hl=es-la" target="_blank"><img src="assets/icons/icono-instagram.svg"  width="25" height="25" alt=""></a>
+                  </li>
+                </ul>
+            </div>   
+        </div> 
+
 </div>
 
 <div class="modal fade" id="my_video_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -128,7 +137,7 @@
   $(document).ready(function(){
     $('#cover-page').fadeOut();
     var page = new FullPage("#main-content",{
-         pagination: true,  
+         pagination: false,  
          animationDuration: 800,
 
          onLeave: function(a, b){
