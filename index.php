@@ -81,7 +81,7 @@
                 <?php include 'footer.php'; ?>
             </section>
 </div>
-<div class="footer" id="footer" >
+<div class="footer" style="display: none;" id="footer" >
 
       <div class="bg-black"  id="footer-contact">
 
@@ -139,6 +139,13 @@
     var page = new FullPage("#main-content",{
          pagination: true,  
          animationDuration: 800,
+         onLeave: function(index, nextIndex, direction){
+          if(index != 9){
+              $("#footer").hide();
+            } else {
+              $("#footer").show();
+            }
+          },
          afterLoad:function(e){ 
 
           $("#control-auto").click(function() {
