@@ -40,7 +40,7 @@
 
                  <div id="box-y-moto" class="hide">
                   
-                  <img src="assets/img/moto.png"   class="moto ">
+                  <img src="assets/img/MOTO.png"   class="moto ">
 
                   <div class="contenido-box-y animated fadeIn">
 
