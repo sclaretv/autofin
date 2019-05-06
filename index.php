@@ -2,11 +2,11 @@
 <?php  $version = date('YmdHis'); ?>
 <html lang="pt-br">
 <head>
-  <title> </title>
+  <title>Autofin </title>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
-<meta name="description" content="A Simple Full Page Scroll"> 
+<meta name="description" content="Autofin"> 
 
 
 <link rel="stylesheet" href="assets/web/css/bootstrap.min.css?<?php echo $version ?>">
