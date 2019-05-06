@@ -51,9 +51,11 @@
 
             <section id="main" class="section">
               <?php include 'main.php'; ?>
+            </section> 
 
+            <section id="comencemos" class="section">
               <?php include 'comencemos.php'; ?>
-            </section>        
+            </section>          
 
             <!-- secciones de productos -->
             <section class="  section " id="portal-ces">
@@ -175,7 +177,7 @@
 
             });
 
-             $(".btn-comencemos").click(function() {
+             /*$(".btn-comencemos").click(function() {
               $("#main").addClass("comencemos");
 
             });
@@ -183,7 +185,7 @@
              $(".btn-comencemos-volver").click(function() {
               $("#main").removeClass("comencemos");
 
-            });
+            });*/
 
              $('.carousel_productos').carousel({
               interval: 5000
@@ -193,10 +195,14 @@
 
 
       }});
+
+          $(".btn-comencemos").click(function(e) {
+            e.preventDefault();
+            page.moveTo(1);
+            
+          });
+
              var buho = false;
-
-
-           
 
             $(".control-novedades").click(function(e) {
               e.preventDefault();

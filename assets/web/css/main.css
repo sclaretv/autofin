@@ -133,12 +133,13 @@ background-image: url(../img/fondo-sections.png);
 }
 
 
-#main{  background-repeat: no-repeat;
+#main{  
+   background-repeat: no-repeat;
 	 background-position: center;
 	 background-image: url(../img/fondo-main.png) ;  
 }
 
-#main > #comencemos {
+/*#main > #comencemos {
 	display: none;
 }
 
@@ -159,7 +160,7 @@ background-image: url(../img/fondo-sections.png);
  background-image: url(../img/fondo-sections.png);
 
 
-}
+}*/
 
 #fuerza.fin { 
   background-image: url(../img/fondo-final.png); 

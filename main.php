@@ -1,4 +1,3 @@
-<div id="principal">
    <div class="box-y" >
 
                   
@@ -60,6 +59,5 @@
 
                 </div>
             </div>
-</div>
                 
 

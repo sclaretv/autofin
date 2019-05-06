@@ -1,4 +1,3 @@
-  <div id="comencemos" >
     <div class="box-comencemos">
 
         <div class="div-comencemos" id="video-comencemos">
@@ -10,6 +9,5 @@
         <div class="text-comencemos">
           <p>CONOCE NUESTRAS SOLUCIONES TECNOLÓGICAS, QUE HACEN QUE NUESTRO SERVICIO SEA DE VANGUARDIA</p>
         </div> 
-  </div>
   </div>
   
