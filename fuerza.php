@@ -1,4 +1,4 @@
-<div class="box4">
+<div class="box6">
     <div class="box-iconos5">
       <ul class="list-unstyled ">
         <li class="box-iconos-li">
