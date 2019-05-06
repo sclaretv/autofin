@@ -10,6 +10,7 @@
 
 
 <link rel="stylesheet" href="assets/web/css/bootstrap.min.css?<?php echo $version ?>">
+<link rel="stylesheet" href="assets/web/css/animate.css?<?php echo $version ?>">
 <link rel="stylesheet" href="assets/web/css/main.css?<?php echo $version ?>">
 
 <!--[if lt IE 9]>
@@ -29,7 +30,7 @@
 
   <div id="cover-page"></div>
 
-  <header class="header">
+  <header class="header animated fadeInDown">
 
     <div class="my-container">
       <a class="nav-item " data-key="1" href="#portal-ces"> PORTAL CES </a>
@@ -81,7 +82,7 @@
 
 </div>
 
-<div class="footer" style="display: none;" id="footer" >
+<div class="footer animated fadeInUp" style="display: none;" id="footer" >
 
       <div class="bg-black"  id="footer-contact">
 
@@ -153,7 +154,7 @@
             } else {
               setTimeout(function() {
                 $("#fuerza").addClass("fin");
-                $("#footer").fadeIn();
+                $("#footer").show();
               }, 1200);
               
             }

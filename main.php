@@ -18,9 +18,9 @@
 
                 <div id="box-y-auto">
                   
-                  <img src="assets/img/auto.png"   class="auto">
+                  <img src="assets/img/auto.png"   class="auto ">
 
-                  <div class="contenido-box-y">
+                  <div class="contenido-box-y animated fadeIn">
 
                     <h4 class="titulo-box-y">
 
@@ -40,9 +40,9 @@
 
                  <div id="box-y-moto" class="hide">
                   
-                  <img src="assets/img/moto.png"   class="moto">
+                  <img src="assets/img/moto.png"   class="moto ">
 
-                  <div class="contenido-box-y">
+                  <div class="contenido-box-y animated fadeIn">
 
                     <h4 class="titulo-box-y">
 
