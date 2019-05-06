@@ -69,7 +69,7 @@ fullPage.js Demo Page</title>
             </section>
 
             <section class="  section " id="fuerza">
-                <?php //include 'fuerza.php'; ?>
+                <?php include 'fuerza.php'; ?>
             </section>        
 
             <section class="  section" id="fuerza-fin">
