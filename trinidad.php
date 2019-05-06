@@ -1,5 +1,5 @@
 <div class="box4">
-    <div class="box-iconos4">
+    <div class="box-iconos5">
       <ul class="list-unstyled ">
         <li class="box-iconos-li">
           <a href="https://www.youtube.com/embed/WaFeIHV4C_U" class="link-video"  >
@@ -7,23 +7,8 @@
           </a>
         </li>
         <li class="box-iconos-li">
-          <a href="https://www.trinidadautofin.com/trinidadmobile_QA/webQA/trinidadmobile.html" target="_blank">
-            <img src="assets/icons/autofin-icono-web-4.svg"  width="37"  alt=""  aria-hidden=true>
-          </a>
-        </li>
-        <li class="box-iconos-li">
-          <a href="#" target="_blank">
-            <img src="assets/icons/autofin-icono-web-5.svg"  width="37"  alt=""  aria-hidden=true>
-          </a>
-        </li>
-        <li class="box-iconos-li">
-          <a href="https://www.trinidadautofin.com/trinidadmobile_QA/webQA/trinidadmobile.html" target="_blank">
-            <img src="assets/icons/autofin-icono-web-6.svg"  width="37"  alt=""  aria-hidden=true>
-          </a>
-        </li>
-        <li class="box-iconos-li">
-          <a href="#" target="_blank">
-            <img src="assets/icons/autofin-icono-web-7.svg"  width="37"  alt=""  aria-hidden=true>
+          <a href="https://www.trinidadautoﬁn.com/Trinidadtest/loginrwd.aspx" target="_blank">
+            <img src="assets/icons/autofin-icono-web-9.svg"  width="37"  alt=""  aria-hidden=true>
           </a>
         </li>
       </ul>
@@ -73,23 +58,8 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://www.trinidadautofin.com/trinidadmobile_QA/webQA/trinidadmobile.html" target="_blank">
-                <img src="assets/icons/autofin-icono-web-4.svg"  width="37"  alt=""  aria-hidden=true>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#" target="_blank">
-                <img src="assets/icons/autofin-icono-web-5.svg"  width="37"  alt=""  aria-hidden=true>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.trinidadautofin.com/trinidadmobile_QA/webQA/trinidadmobile.html" target="_blank">
-                <img src="assets/icons/autofin-icono-web-6.svg"  width="37"  alt=""  aria-hidden=true>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#" target="_blank">
-                <img src="assets/icons/autofin-icono-web-7.svg"  width="37"  alt=""  aria-hidden=true>
+              <a href="https://www.trinidadautoﬁn.com/Trinidadtest/loginrwd.aspx" target="_blank">
+                <img src="assets/icons/autofin-icono-web-9.svg"  width="37"  alt=""  aria-hidden=true>
               </a>
             </li>
           </ul>
