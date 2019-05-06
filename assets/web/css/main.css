@@ -168,7 +168,8 @@ position:fixed;
 top:50%;
 bottom:0;
 right:20px;
-text-align:center
+text-align:center;
+display: none;
 }
 .slide-navigation>li{
 position:relative;

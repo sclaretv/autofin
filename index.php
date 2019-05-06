@@ -32,13 +32,13 @@
   <header class="header">
 
     <div class="my-container">
-      <a class="nav-item" href="#portal-ces"> PORTAL CES </a>
-      <a class="nav-item" href="#trinidad"> TRINIDAD </a>
-      <a class="nav-item" href="#panal"> PANAL </a>
-       <a class="nav-item logo" href="#main"> <img src="assets/img/logotipo-autofin-blanco.svg" width="155" height="55" alt=""> </a>
-      <a class="nav-item" href="#araña"> ARAÑA </a>
-      <a class="nav-item" href="#mi-autofin"> MI AUTOFIN </a>
-      <a class="nav-item" href="#fuerza"> FUERZA </a>
+      <a class="nav-item " data-key="1" href="#portal-ces"> PORTAL CES </a>
+      <a class="nav-item " data-key="2" href="#trinidad"> TRINIDAD </a>
+      <a class="nav-item " data-key="3" href="#panal"> PANAL </a>
+       <a class="nav-item  logo" data-key="0" href="#main"> <img src="assets/img/logotipo-autofin-blanco.svg" width="155" height="55" alt=""> </a>
+      <a class="nav-item " data-key="4" href="#araña"> ARAÑA </a>
+      <a class="nav-item " data-key="5" href="#mi-autofin"> MI AUTOFIN </a>
+      <a class="nav-item " data-key="7" href="#fuerza"> FUERZA </a>
       
     </div>
     
@@ -137,22 +137,8 @@
   $(document).ready(function(){
     $('#cover-page').fadeOut();
     var page = new FullPage("#main-content",{
-         pagination: false,  
+         pagination: true,  
          animationDuration: 800,
-
-         onLeave: function(a, b){
-          console.log(a,b);
-          /*if ($( "#fuerza-fin" ).hasClass( "is-active" )) {
-            $("#footer").fadeIn();
-          } else {
-            $("#footer").hide();
-          }*/
-
-           
-
-
-
-         },
          afterLoad:function(e){ 
 
           $("#control-auto").click(function() {
@@ -186,6 +172,9 @@
             });
 
 
+
+
+      }});
              var buho = false;
 
 
@@ -205,12 +194,19 @@
               
             });
 
-
-      }});
-
     $("#btn-novedades").click(function(e) {
               e.preventDefault();
-              page.moveTo(5);
+              page.moveTo(6);
+              
+            });
+
+
+    $(".nav-item").click(function(e) {
+              e.preventDefault();
+
+              console.log('aa');
+              var num = parseInt($(this).data('key'));
+              page.moveTo(num);
               
             });
 
