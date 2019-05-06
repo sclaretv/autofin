@@ -1,8 +1,6 @@
 
 <div class="box1-2">
-  <div class="slide-previous">
-  <a href="#mi-autofingps" id="prev-miautofingps" class=""><span class="glyphicon glyphicon-menu-left"></span></a>
-</div>
+  
     <div class="box-iconos3">
       <ul class="list-unstyled ">
         <li class="box-iconos-li">
@@ -125,7 +123,5 @@
     </div>
   
   </div>
-<div class="slide-next">
-  <a href="#mi-autofingps" id="next-miautofingps" class=""><span class="glyphicon glyphicon-menu-right"></span></a>
-</div>
+
 </div>
