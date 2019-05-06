@@ -12,7 +12,7 @@
           </a>
         </li>
         <li class="box-iconos-li">
-          <a href="#" target="_blank">
+          <a href="manuales/AUTOFIN-MANUAL-ANDROID.pdf" target="_blank">
             <img src="assets/icons/autofin-icono-web-5.svg"  width="37"  alt=""  aria-hidden=true>
           </a>
         </li>
@@ -22,7 +22,7 @@
           </a>
         </li>
         <li class="box-iconos-li">
-          <a href="#" target="_blank">
+          <a href="manuales/AUTOFIN-MANUAL-IOS.pdf" target="_blank">
             <img src="assets/icons/autofin-icono-web-7.svg"  width="37"  alt=""  aria-hidden=true>
           </a>
         </li>
