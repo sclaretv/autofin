@@ -16,7 +16,8 @@
 <!--[if lt IE 9]>
     <script src="assets/web/js/vendor/html5-3.6-respond-1.4.2.min.js?<?php echo $version ?>"></script>
 <![endif]-->
-
+<link rel="icon" href="assets/icons/favicon-autofin.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="assets/icons/favicon-autofin.ico" type="image/x-icon">
 
 <script src="assets/web/js/vendor/jquery-1.11.2.min.js?<?php echo $version ?>"></script>
 <script src="assets/web/js/vendor/bootstrap.min.js?<?php echo $version ?>"></script>
