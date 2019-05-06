@@ -144,14 +144,14 @@
          pagination: true,  
          animationDuration: 800,
          onLeave: function(index){
-          if(index == 7){
+          if(index == 8){
               $("#footer").hide();
               $("#fuerza").removeClass("fin");
             }
           },
          afterLoad:function(index){ 
 
-           if(index != 7){
+           if(index != 8){
               $("#footer").hide();
               $("#fuerza").removeClass("fin");
             } else {
