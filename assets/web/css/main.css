@@ -645,3 +645,12 @@ background: rgba(255,255,255,0.8);
   color:#fff;
   opacity:1;
 }
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (max-width: 992px) {
+
+  #menu {
+    display: none;
+  }
+
+}
