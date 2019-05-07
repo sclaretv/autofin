@@ -646,6 +646,18 @@ background: rgba(255,255,255,0.8);
   opacity:1;
 }
 
+@media screen and (min-width: 993px) {
+
+  #menu {
+    display: block;
+  }
+
+  #menu-responsive {
+    display: none;
+  }
+
+}
+
 /* Medium devices (desktops, 992px and up) */
 @media screen and (max-width: 992px) {
 
@@ -653,4 +665,18 @@ background: rgba(255,255,255,0.8);
     display: none;
   }
 
+  #menu-responsive {
+    display: block;
+  }
+
+  .a-menu-res2 {
+    margin-left: 85%;
+
+  }
+
+  .img-menu-res2 {
+    width: 18%;
+    margin-top: 9px;
+    padding-right: 9px;
+  }
 }
