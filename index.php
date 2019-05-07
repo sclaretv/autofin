@@ -53,7 +53,7 @@
           <a class="a-menu-res2" href="#"> <img class="img-menu-res2" src="assets/icons/menu-responsive.svg" width="35" alt=""> </a>
         </div>
 
-        <div class="col-sm-12 col-xs-12" id="ul-menu-res2">
+        <div class="col-sm-12 col-xs-12 animated fadeIn" id="ul-menu-res2">
           <ul>
             <li class="li-menu-res2">
               <a class="" data-key="2" href="#portal-ces"> PORTAL CES </a>
@@ -278,6 +278,9 @@
       e.preventDefault();
       $("#ul-menu-res2").toggle();
     });
+
+
+   
 
     
 

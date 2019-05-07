@@ -685,7 +685,7 @@ background: rgba(255,255,255,0.8);
   }
 
   .li-menu-res2 {
-    padding: 10px 15px 0px 7px;
+    padding: 10px 15px 5px 0px;
     text-align: right;
     list-style: none;
     color: white;
