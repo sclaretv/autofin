@@ -52,6 +52,29 @@
         <div class="col-sm-6 col-xs-6">
           <a class="a-menu-res2" href="#"> <img class="img-menu-res2" src="assets/icons/menu-responsive.svg" width="35" alt=""> </a>
         </div>
+
+        <div class="col-sm-12 col-xs-12" id="ul-menu-res2">
+          <ul>
+            <li class="li-menu-res2">
+              <a class="" data-key="2" href="#portal-ces"> PORTAL CES </a>
+            </li>
+            <li class="li-menu-res2">
+              <a class="" data-key="3" href="#trinidad"> TRINIDAD </a>
+            </li>
+            <li class="li-menu-res2">
+              <a class="" data-key="4" href="#panal"> PANAL </a>
+            </li>
+            <li class="li-menu-res2">
+              <a class="" data-key="5" href="#araña"> ARAÑA </a>
+            </li>
+            <li class="li-menu-res2">
+              <a class="" data-key="6" href="#mi-autofin"> MI AUTOFIN </a>
+            </li>
+            <li class="li-menu-res2">
+              <a class="" data-key="7" href="#fuerza"> FUERZA </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
     
@@ -250,6 +273,13 @@
     }).on('hide.bs.modal', function (e) { 
         $("#video").attr('src',$videoSrc); 
     }) 
+
+    $(".a-menu-res2").click(function(e) {
+      e.preventDefault();
+      $("#ul-menu-res2").toggle();
+    });
+
+    
 
   });
 </script>

@@ -679,4 +679,18 @@ background: rgba(255,255,255,0.8);
     margin-top: 9px;
     padding-right: 9px;
   }
+
+  #ul-menu-res2 {
+    display: none;
+  }
+
+  .li-menu-res2 {
+    padding: 10px 15px 0px 7px;
+    text-align: right;
+    list-style: none;
+    color: white;
+    background-color: #000;
+    font-weight: bold;
+    font-size: 14px;
+  }
 }
