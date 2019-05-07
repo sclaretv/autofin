@@ -139,28 +139,6 @@ background-image: url(../img/fondo-sections.png);
 	 background-image: url(../img/fondo-main.png) ;  
 }
 
-/*#main > #comencemos {
-	display: none;
-}
-
-#main.comencemos > #comencemos {
-	display: block;
-}
-
-
-#main > #principal {
-	display: block;
-}
-
-#main.comencemos > #principal {
-	display: none;
-}
-
-#main.comencemos {  
- background-image: url(../img/fondo-sections.png);
-
-
-}*/
 
 #fuerza.fin { 
   background-image: url(../img/fondo-final.png); 

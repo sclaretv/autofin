@@ -40,8 +40,7 @@
        <a class="nav-item  logo" data-key="0" href="#main"> <img src="assets/img/logotipo-autofin-blanco.svg" width="155" height="55" alt=""> </a>
       <a class="nav-item " data-key="5" href="#araña"> ARAÑA </a>
       <a class="nav-item " data-key="6" href="#mi-autofin"> MI AUTOFIN </a>
-      <a class="nav-item " data-key="8" href="#fuerza"> FUERZA </a>
-      
+      <a class="nav-item " data-key="7" href="#fuerza"> FUERZA </a>
     </div>
     
   </header>
@@ -87,10 +86,10 @@
 
         <div class="my-container ">
           <div class="row ">
-              <div class="col-lg-6" >
+              <div class="col-lg-5" >
                   <img src="assets/img/logotipo-autofin-blanco.svg" width="160" height="60" alt="">  
               </div>
-              <div class="col-lg-6 ">
+              <div class="col-lg-7">
                   <p class="">Contáctanos</p>
                   <p class="text-yellow ">+562 2235 0850</p>
                   <p class="">Lunes a Viernes de 09:00 a 18:00 hrs.</p>
