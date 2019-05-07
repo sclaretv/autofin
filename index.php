@@ -75,10 +75,6 @@
                 <?php include 'mi-autofin.php'; ?>
             </section>
 
-            <section class="  section " id="mi-autofingps">
-                <?php include 'novedades/mi-autofingps.php'; ?>
-            </section>
-
             <section class="  section " id="fuerza">
                 <?php include 'fuerza.php'; ?>
             </section>        
@@ -141,109 +137,100 @@
   $(document).ready(function(){
     $('#cover-page').fadeOut();
     var page = new FullPage("#main-content",{
-         pagination: true,  
-         animationDuration: 800,
-         onLeave: function(index){
-          if(index == 8){
-              $("#footer").hide();
-              $("#fuerza").removeClass("fin");
-            }
-          },
-         afterLoad:function(index){ 
+    pagination: true,  
+    animationDuration: 800,
+    onLeave: function(index){
+    if(index == 7){
+        $("#footer").hide();
+        $("#fuerza").removeClass("fin");
+      }
+    },
+    afterLoad:function(index){ 
 
-           if(index != 8){
-              $("#footer").hide();
-              $("#fuerza").removeClass("fin");
-            } else {
-              setTimeout(function() {
-                $("#fuerza").addClass("fin");
-                $("#footer").show();
-              }, 1200);
-              
-            }
+      if(index != 7){
+        $("#footer").hide();
+        $("#fuerza").removeClass("fin");
+      } else {
+        setTimeout(function() {
+          $("#fuerza").addClass("fin");
+          $("#footer").show();
+        }, 1200);
+        
+      }
 
-          $("#control-auto").click(function() {
-              $("#box-y-moto").addClass("hide");
-              $("#box-y-auto").removeClass("hide");
-              $(".btn-moto").removeClass("active");
-              $(".btn-auto").addClass("active");
-              
-            });
+      $("#control-auto").click(function() {
+        $("#box-y-moto").addClass("hide");
+        $("#box-y-auto").removeClass("hide");
+        $(".btn-moto").removeClass("active");
+        $(".btn-auto").addClass("active");
+        
+      });
 
-            $("#control-moto").click(function() {
-              $("#box-y-auto").addClass("hide");
-              $("#box-y-moto").removeClass("hide");
-              $(".btn-auto").removeClass("active");
-              $(".btn-moto").addClass("active");
+      $("#control-moto").click(function() {
+        $("#box-y-auto").addClass("hide");
+        $("#box-y-moto").removeClass("hide");
+        $(".btn-auto").removeClass("active");
+        $(".btn-moto").addClass("active");
 
-            });
+      });
 
-             /*$(".btn-comencemos").click(function() {
-              $("#main").addClass("comencemos");
+      $('.carousel_productos').carousel({
+        interval: 5000
+      });
 
-            });
+    }});
 
-             $(".btn-comencemos-volver").click(function() {
-              $("#main").removeClass("comencemos");
+    $(".btn-comencemos").click(function(e) {
+      e.preventDefault();
+      page.moveTo(1);
+      
+    });
 
-            });*/
+    var buho = false;
 
-             $('.carousel_productos').carousel({
-              interval: 5000
-            });
+    $(".control-novedades").click(function(e) {
+      e.preventDefault();
+      if (buho==false) {
+        $("#novedades-miautofingps").addClass("hide");
+        $("#novedades-buho").removeClass("hide");
+        buho=true;
+      } else {
+         $("#novedades-buho").addClass("hide");
+        $("#novedades-miautofingps").removeClass("hide");
+        buho=false;
+      }
+      
+    });
 
-
-
-
-      }});
-
-          $(".btn-comencemos").click(function(e) {
-            e.preventDefault();
-            page.moveTo(1);
-            
-          });
-
-             var buho = false;
-
-            $(".control-novedades").click(function(e) {
-              e.preventDefault();
-              if (buho==false) {
-                $("#novedades-miautofingps").addClass("hide");
-                $("#novedades-buho").removeClass("hide");
-                buho=true;
-              } else {
-                 $("#novedades-buho").addClass("hide");
-                $("#novedades-miautofingps").removeClass("hide");
-                buho=false;
-              }
-              
-            });
+    $(".control-to-miautofin").click(function(e) {
+      e.preventDefault();
+        $("#novedades-div").addClass("hide");
+        $("#mi-autofin-div").removeClass("hide");              
+    });
 
     $("#btn-novedades").click(function(e) {
-              e.preventDefault();
-              page.moveTo(6);
-              
-            });
+      e.preventDefault();
+      $("#mi-autofin-div").addClass("hide");
+      $("#novedades-div").removeClass("hide");
+    });
 
 
     $(".nav-item").click(function(e) {
-              e.preventDefault();
+      e.preventDefault();
 
-              var num = parseInt($(this).data('key'));
-              page.moveTo(num);
-              $("#main").removeClass("comencemos");
-
-              
-            });
+      var num = parseInt($(this).data('key'));
+      page.moveTo(num);
+      $("#main").removeClass("comencemos");
+    });
 
 
     var $videoSrc;  
     $('.link-video').click(function(e) {
 
-        e.preventDefault();
-        $videoSrc = $(this).attr( "href" );
-        console.log($videoSrc);
-        $('#my_video_modal').modal('show');
+      e.preventDefault();
+      $videoSrc = $(this).attr( "href" );
+      console.log($videoSrc);
+      $('#my_video_modal').modal('show');
     });
 
 

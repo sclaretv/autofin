@@ -1,4 +1,4 @@
-<div class="box1">
+<div class="box1" id="mi-autofin-div">
     <div class="box-iconos2">
       <ul class="list-unstyled ">
         <li class="box-iconos-li">
@@ -81,4 +81,8 @@
   
   </div>
 
+</div>
+
+<div id="novedades-div" class="hide">
+  <?php include 'novedades.php'; ?>
 </div>

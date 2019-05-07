@@ -1,7 +1,7 @@
 
 <div class="box1" id="novedades-miautofingps">
   <div class="slide-previous">
-    <a href="#" class="control-novedades"><img src="assets/icons/prev.png"  width="37" alt=""  aria-hidden=true></a>
+    <a href="#" class="control-to-miautofin"><img src="assets/icons/prev.png"  width="37" alt=""  aria-hidden=true></a>
   </div>
   <div class="slide-next">
     <a href="#" class="control-novedades"><img src="assets/icons/next.png"  width="37" alt=""  aria-hidden=true></a>
@@ -95,7 +95,7 @@
     <a href="#" class="control-novedades"><img src="assets/icons/prev.png"  width="37" alt=""  aria-hidden=true></a>
   </div>
   <div class="slide-next">
-    <a href="#" class="control-novedades"><img src="assets/icons/next.png"  width="37" alt=""  aria-hidden=true></a>
+    <a href="#" class="control-to-miautofin"><img src="assets/icons/next.png"  width="37" alt=""  aria-hidden=true></a>
   </div>
 <div  >
       <div class="box-iconos3">
