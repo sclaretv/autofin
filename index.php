@@ -121,10 +121,10 @@
 
         <div class="my-container ">
           <div class="row ">
-              <div class="col-lg-5 col-xs-6" >
+              <div class="col-lg-5 col-sm-6 col-xs-12" >
                   <img src="assets/img/logotipo-autofin-blanco.svg" width="160" height="60" alt="">  
               </div>
-              <div class="col-lg-7 col-xs-6">
+              <div class="col-lg-7 col-sm-6 col-xs-12">
                   <p class="">Contáctanos</p>
                   <p class="text-yellow ">+562 2235 0850</p>
                   <p class="">Lunes a Viernes de 09:00 a 18:00 hrs.</p>

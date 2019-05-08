@@ -794,4 +794,11 @@ background: rgba(255,255,255,0.8);
   .icon-nov-buho {
     width: 25px;
   }
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+
 }
