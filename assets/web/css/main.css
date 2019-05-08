@@ -862,7 +862,7 @@ background: rgba(255,255,255,0.8);
     line-height: 15px;
   }
 
-  .btn-comencemos {
+  .btn-comencemos, #btn-novedades {
     margin-top: 0px;
     font-size: 11px;
   }
@@ -891,7 +891,7 @@ background: rgba(255,255,255,0.8);
     padding: 0px;
   }
 
-  .box-iconos {
+  .box-iconos, .box-iconos2 {
     display: none;
   }
 
@@ -905,7 +905,7 @@ background: rgba(255,255,255,0.8);
   }
 
   .carousel {
-    padding-left: 140px;
+    padding-left: 30%;
   }
 
   .carousel-inner {
@@ -921,16 +921,22 @@ background: rgba(255,255,255,0.8);
 
   .carousel-indicators {
     bottom: 0px;
-    left: 260px;
+    left: 53%;
   }
 
-  .box3-logo {
+  .box3-logo, .box3-logo3 {
     padding-top: 350px;
     padding-left: 0px;
     padding-right: 0px;
     text-align: center;
   }
 
+  .box3-logo-responsive {
+    padding-top: 340px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+  }
 
   .box3-descripcion {
     width: 100%;
@@ -938,9 +944,26 @@ background: rgba(255,255,255,0.8);
     left: 0px
   }
 
+  .box3-text {
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    line-height: 14px;
+  }
+
   .box-iconos-responsive {
     display: block;
     padding-top: 20px;
+  }
+
+  .box-iconos-responsive2 {
+    display: block;
+    padding-top: 5px;
+  }
+
+  .box-iconos-responsive3 {
+    display: block;
+    padding-top: 15px;
   }
 
 

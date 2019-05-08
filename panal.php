@@ -58,7 +58,7 @@
         </p>
       </div>
 
-      <div class="hide">    
+      <div class="box-iconos-responsive2">    
           <ul class="list-inline text-center">
             <li class="list-inline-item">
               <a href="https://www.youtube.com/embed/WaFeIHV4C_U" class="link-video"  >

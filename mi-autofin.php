@@ -47,7 +47,7 @@
 
     <div class="box3-descripcion" id="box3-portalces">
 
-      <div class="box3-logo">
+      <div class="box3-logo box3-logo-responsive">
         <img src="assets/img/logotipo-miautofin-blanco.svg" width="195" height="80" alt="">
       </div>
 
@@ -57,7 +57,7 @@
         <a href="#mi-autofingps" id="btn-novedades" class="btn btn-sm button-box-y text-white">NOVEDADES</a>
       </div>
 
-      <div class="hide">    
+      <div class="box-iconos-responsive3">    
           <ul class="list-inline text-center">
             <li class="list-inline-item">
               <a href="https://www.youtube.com/embed/B1tQeVZVsdU" class="link-video">
