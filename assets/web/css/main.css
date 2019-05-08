@@ -727,7 +727,7 @@ background: rgba(255,255,255,0.8);
     width: 580px;
   }
 
-  .box1, .box4 {
+  .box1, .box4, .box1-2 {
     width: 650px;
     height: 380px;
   }
@@ -764,5 +764,34 @@ background: rgba(255,255,255,0.8);
   .box-iconos5 {
     margin-left: 230px;
     padding-top: 145px;
+  }
+
+  .box2-2 {
+    width: 247px;
+    height: 390px;
+    left: 65px;
+  }
+
+  .carousel-indicators-buho {
+    bottom: -10px;
+  }
+
+  .box-iconos3 {
+    padding-top: 130px;
+  }
+
+  .box3-logo2 {
+    padding-top: 15px;
+    padding-left: 15px;
+  }
+
+  .box3-text2 {
+    padding-left: 20px;
+    padding-right: 15px;
+    font-size: 12px;
+  }
+
+  .icon-nov-buho {
+    width: 25px;
   }
 }

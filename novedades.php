@@ -121,7 +121,7 @@
   <div class="box2-2">
     <div id="carousel-buho" class="carousel slide carousel_productos" data-ride="carousel">
       <!-- Indicators -->
-      <ol class="carousel-indicators">
+      <ol class="carousel-indicators carousel-indicators-buho">
         <li data-target="#carousel-buho" data-slide-to="0" class="active"></li>
         <li data-target="#carousel-buho" data-slide-to="1"></li>
         <li data-target="#carousel-buho" data-slide-to="2"></li>
@@ -155,39 +155,39 @@
 
         <div class="row">
           <div class="col-sm-4 text-center">
-            <img src="assets/icons/autofin-icono-buho-1.svg"   width="30" alt=""  aria-hidden=true>
+            <img src="assets/icons/autofin-icono-buho-1.svg" class="icon-nov-buho"  width="30" alt=""  aria-hidden=true>
             <p class="text-buho">Marca, modelo, versión, año</p>
           </div>
           <div class="col-sm-4 text-center">
-             <img src="assets/icons/autofin-icono-buho-2.svg"   width="30" alt=""  aria-hidden=true>
+             <img src="assets/icons/autofin-icono-buho-2.svg" class="icon-nov-buho"  width="30" alt=""  aria-hidden=true>
             <p class="text-buho">Precio de referencia&nbsp;&nbsp;</p>
           </div>
           <div class="col-sm-4 text-center">
-             <img src="assets/icons/autofin-icono-buho-3.svg"   width="30" alt=""  aria-hidden=true>
+             <img src="assets/icons/autofin-icono-buho-3.svg" class="icon-nov-buho"  width="30" alt=""  aria-hidden=true>
             <p class="text-buho">Evalúo de crédito por el monto</p>
           </div>
         </div>
         <div class="row">
           <div class="col-sm-4 text-center">
-            <img src="assets/icons/autofin-icono-buho-4.svg"   width="30" alt=""  aria-hidden=true>
+            <img src="assets/icons/autofin-icono-buho-4.svg" class="icon-nov-buho"  width="30" alt=""  aria-hidden=true>
             <p class="text-buho">Simulación de alternativas</p>
           </div>
           <div class="col-sm-4 text-center">
-            <img src="assets/icons/autofin-icono-buho-5.svg"   width="30" alt=""  aria-hidden=true>
+            <img src="assets/icons/autofin-icono-buho-5.svg" class="icon-nov-buho"  width="30" alt=""  aria-hidden=true>
             <p class="text-buho">Cuota por el valor del vehiculo</p>
           </div>
           <div class="col-sm-4 text-center">
-            <img src="assets/icons/autofin-icono-buho-6.svg"   width="30" alt=""  aria-hidden=true>
+            <img src="assets/icons/autofin-icono-buho-6.svg" class="icon-nov-buho"  width="30" alt=""  aria-hidden=true>
             <p class="text-buho">Alternativas de vehiculos con el mismo precio</p>
           </div>
         </div>
         <div class="row">
           <div class="col-sm-4 text-center">
-            <img src="assets/icons/autofin-icono-buho-7.svg"   width="30" alt=""  aria-hidden=true>
+            <img src="assets/icons/autofin-icono-buho-7.svg" class="icon-nov-buho"  width="30" alt=""  aria-hidden=true>
             <p class="text-buho">Proceso de compra autónomo</p>
           </div>
           <div class="col-sm-4 text-center">
-            <img src="assets/icons/autofin-icono-buho-8.svg"   width="30" alt=""  aria-hidden=true>
+            <img src="assets/icons/autofin-icono-buho-8.svg" class="icon-nov-buho"  width="30" alt=""  aria-hidden=true>
             <p class="text-buho">Proceso de venta asistido</p>
           </div>
           <div class="col-sm-4 text-center"></div>
