@@ -803,4 +803,22 @@ background: rgba(255,255,255,0.8);
   .my-container {
     text-align: center;
   }
+
+  #footer-contact {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #footer-contact img {
+    margin: 30px;
+  }
+
+  #footer-contact p {
+    text-align: center;
+  }
+
+  .li-footer {
+    padding-left: 0px;
+  }
+
 }
