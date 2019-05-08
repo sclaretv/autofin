@@ -65,7 +65,7 @@
         <p>Aplicación móvil donde podrás evaluar en 5 minutos y con solo 4 datos a tu cliente, acelerando el proceso de venta.</p>
       </div>
 
-      <div class="hide">    
+      <div class="box-iconos-responsive">    
           <ul class="list-inline text-center">
             <li class="list-inline-item">
               <a href="https://www.youtube.com/embed/WaFeIHV4C_U" class="link-video"  >
