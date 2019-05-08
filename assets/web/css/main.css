@@ -659,6 +659,7 @@ background: rgba(255,255,255,0.8);
 }
 
 /* Medium devices (desktops, 992px and up) */
+
 @media screen and (max-width: 992px) {
 
   #menu {
@@ -692,5 +693,76 @@ background: rgba(255,255,255,0.8);
     background-color: #000;
     font-weight: bold;
     font-size: 14px;
+  }
+
+  .my-container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 8px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+
+  .box-y {
+    width: 700px;
+    padding: 40px 290px 40px 40px;
+  }
+
+  .auto {
+    margin-top: 154px;
+    margin-left: 47px;
+    width: 732px;
+  }
+
+  .moto {
+    width: 880px;
+  }
+
+  .box-comencemos {
+    width: 580px;
+  }
+
+  .box1, .box4 {
+    width: 650px;
+    height: 380px;
+  }
+
+  .box-iconos {
+    padding-top: 80px;
+  }
+
+  .box2 {
+    width: 247px;
+    margin-top: -20px;
+    height: 420px;
+    left: 65px;
+  }
+
+  .carousel {
+    top: 10%;
+  }
+
+  .carousel-indicators {
+    bottom: -20px;
+  }
+
+  .box3-logo {
+    padding-top: 80px;
+  }
+
+  .box5 {
+    width: 247px;
+    margin-top: -20px;
+    height: 420px;
+  }
+
+  .box-iconos5 {
+    margin-left: 230px;
+    padding-top: 145px;
   }
 }
