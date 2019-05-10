@@ -910,9 +910,9 @@ background: rgba(255,255,255,0.8);
     width: 100%;
     height: 50%;
     margin-top: 0%;
-    margin-right: auto;
+    margin-right: 0%;
     margin-left: auto;
-    padding: 10% 20%;
+    padding: 0% 20%;
   }
 
   .box3-descripcion, .box5-descripcion {
@@ -933,17 +933,18 @@ background: rgba(255,255,255,0.8);
   }
 
   .carousel_productos {
-    height: 80%;
+    height: 90%;
   }
 
   .box2-img-carousel {
-    position: absolute;
-    left: 30%;
+    width: 80%;
+    left: 0%;
     top: 0%;
     right: 10%;
     bottom: 0%;
-    margin-right: 0%;
-    margin-left: 0%;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
   }
 
   .carousel-indicators {
@@ -997,7 +998,7 @@ background: rgba(255,255,255,0.8);
   .box-iconos-responsive, .box-iconos-responsive2, .box-iconos-responsive3 {
     display: block;
     height: 10%;
-    padding-top: 5%;
+    padding-top: 10%;
     padding-bottom: 5%;
 
   }
@@ -1005,7 +1006,7 @@ background: rgba(255,255,255,0.8);
   .box-iconos-responsive4 {
     display: block;
     height: 10%;
-    padding-top: 10%;
+    padding-top: 15%;
     padding-bottom: 0%;
 
   }
