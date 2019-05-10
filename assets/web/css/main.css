@@ -827,6 +827,7 @@ background: rgba(255,255,255,0.8);
 
   #footer-contact p {
     text-align: center;
+    font-weight: normal;
   }
 
   .li-footer {
@@ -977,6 +978,7 @@ background: rgba(255,255,255,0.8);
     font-size: 12px;
     text-align: center;
     line-height: 12px;
+    color: #949596;
   }
 
   .box3-text4 p {
@@ -1004,7 +1006,6 @@ background: rgba(255,255,255,0.8);
 
   }
 
-  }
   .list-inline-item {
     display: inline-block;
   }
