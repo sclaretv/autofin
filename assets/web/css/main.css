@@ -816,6 +816,10 @@ background: rgba(255,255,255,0.8);
     text-align: center;
   }
 
+  .a-menu-res2 {
+    margin-left: 73%;
+  }
+
   #footer-contact {
     padding-top: 20px;
     padding-bottom: 20px;
