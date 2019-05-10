@@ -69,27 +69,27 @@
           <ul class="list-inline text-center">
             <li class="list-inline-item">
               <a href="https://www.youtube.com/embed/WaFeIHV4C_U" class="link-video"  >
-                <img src="assets/icons/autofin-icono-web-3.svg"  width="37" alt=""  aria-hidden=true>
+                <img src="assets/icons/autofin-icono-web-3.svg"  width="30" alt=""  aria-hidden=true>
               </a>
             </li>
             <li class="list-inline-item">
               <a href="https://www.trinidadautofin.com/trinidadmobile_QA/webQA/trinidadmobile.html" target="_blank">
-                <img src="assets/icons/autofin-icono-web-4.svg"  width="37"  alt=""  aria-hidden=true>
+                <img src="assets/icons/autofin-icono-web-4.svg"  width="30"  alt=""  aria-hidden=true>
               </a>
             </li>
             <li class="list-inline-item">
               <a href="#" target="_blank">
-                <img src="assets/icons/autofin-icono-web-5.svg"  width="37"  alt=""  aria-hidden=true>
+                <img src="assets/icons/autofin-icono-web-5.svg"  width="30"  alt=""  aria-hidden=true>
               </a>
             </li>
             <li class="list-inline-item">
               <a href="https://www.trinidadautofin.com/trinidadmobile_QA/webQA/trinidadmobile.html" target="_blank">
-                <img src="assets/icons/autofin-icono-web-6.svg"  width="37"  alt=""  aria-hidden=true>
+                <img src="assets/icons/autofin-icono-web-6.svg"  width="30"  alt=""  aria-hidden=true>
               </a>
             </li>
             <li class="list-inline-item">
               <a href="#" target="_blank">
-                <img src="assets/icons/autofin-icono-web-7.svg"  width="37"  alt=""  aria-hidden=true>
+                <img src="assets/icons/autofin-icono-web-7.svg"  width="30"  alt=""  aria-hidden=true>
               </a>
             </li>
           </ul>

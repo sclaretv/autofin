@@ -50,16 +50,16 @@
         <p>Plataforma Online donde se gestiona el ciclo de vida del crédito de un cliente, desde la cotización, evaluación, aprobación y seguimiento.</p>
       </div>
 
-      <div class="hide">    
+      <div class="box-iconos-responsive">    
           <ul class="list-inline text-center">
             <li class="list-inline-item">
               <a href="https://www.youtube.com/embed/WaFeIHV4C_U" class="link-video"  >
-                <img src="assets/icons/autofin-icono-web-3.svg"  width="37" alt=""  aria-hidden=true>
+                <img src="assets/icons/autofin-icono-web-3.svg"  width="30" alt=""  aria-hidden=true>
               </a>
             </li>
             <li class="list-inline-item">
               <a href="https://www.trinidadautoﬁn.com/Trinidadtest/loginrwd.aspx" target="_blank">
-                <img src="assets/icons/autofin-icono-web-9.svg"  width="37"  alt=""  aria-hidden=true>
+                <img src="assets/icons/autofin-icono-web-9.svg"  width="30"  alt=""  aria-hidden=true>
               </a>
             </li>
           </ul>

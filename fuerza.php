@@ -46,7 +46,7 @@
         <img src="assets/img/logotipo-fuerza.svg" width="195" height="80" alt="">
       </div>
 
-      <div class="box3-text3">
+      <div class="box3-text4">
         <p>Es un programa de gestión de equipo online, utilizada para comunicar los objetivos de Autofin con la finalidad de motivar a sus colaboradores con premios de desempeño.</p>
         <p class="text-right">
           Ingresa con los siguientes datos:<br>
@@ -55,16 +55,16 @@
         </p>
       </div>
 
-      <div class="hide">    
+      <div class="box-iconos-responsive4">    
           <ul class="list-inline text-center">
             <li class="list-inline-item">
               <a href="https://www.youtube.com/embed/YyKRoQGDamo" class="link-video">
-                <img src="assets/icons/autofin-icono-web-3.svg"  width="37" alt=""  aria-hidden=true>
+                <img src="assets/icons/autofin-icono-web-3.svg"  width="30" alt=""  aria-hidden=true>
               </a>
             </li>
             <li class="list-inline-item">
               <a href="https://fuerzaautoﬁn.cl/" target="_blank">
-                <img src="assets/icons/autofin-icono-web-9.svg"  width="37"  alt=""  aria-hidden=true>
+                <img src="assets/icons/autofin-icono-web-9.svg"  width="30"  alt=""  aria-hidden=true>
               </a>
             </li>
           </ul>

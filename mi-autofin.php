@@ -3,17 +3,17 @@
       <ul class="list-unstyled ">
         <li class="box-iconos-li">
           <a href="https://www.youtube.com/embed/B1tQeVZVsdU" class="link-video">
-            <img src="assets/icons/autofin-icono-web-3.svg"  width="37" alt=""  aria-hidden=true>
+            <img src="assets/icons/autofin-icono-web-3.svg"  width="30" alt=""  aria-hidden=true>
           </a>
         </li>
         <li class="box-iconos-li">
           <a href="https://play.google.com/store/apps/details?id=com.mavimovil.autofin" target="_blank">
-            <img src="assets/icons/autofin-icono-web-4.svg"  width="37"  alt=""  aria-hidden=true>
+            <img src="assets/icons/autofin-icono-web-4.svg"  width="30"  alt=""  aria-hidden=true>
           </a>
         </li>
         <li class="box-iconos-li">
           <a href="https://itunes.apple.com/us/app/mi-autofin/id1253130290?ls=1&mt=8" target="_blank">
-            <img src="assets/icons/autofin-icono-web-6.svg"  width="37"  alt=""  aria-hidden=true>
+            <img src="assets/icons/autofin-icono-web-6.svg"  width="30"  alt=""  aria-hidden=true>
           </a>
         </li>
       </ul>
@@ -45,9 +45,9 @@
 
   <div class="box3">
 
-    <div class="box3-descripcion" id="box3-portalces">
+    <div class="box3-descripcion" id="box3-miautofin">
 
-      <div class="box3-logo box3-logo-responsive">
+      <div class="box3-logo">
         <img src="assets/img/logotipo-miautofin-blanco.svg" width="195" height="80" alt="">
       </div>
 
@@ -61,17 +61,17 @@
           <ul class="list-inline text-center">
             <li class="list-inline-item">
               <a href="https://www.youtube.com/embed/B1tQeVZVsdU" class="link-video">
-                <img src="assets/icons/autofin-icono-web-3.svg"  width="37" alt=""  aria-hidden=true>
+                <img src="assets/icons/autofin-icono-web-3.svg"  width="30" alt=""  aria-hidden=true>
               </a>
             </li>
             <li class="list-inline-item">
               <a href="https://play.google.com/store/apps/details?id=com.mavimovil.autofin" target="_blank">
-                <img src="assets/icons/autofin-icono-web-4.svg"  width="37"  alt=""  aria-hidden=true>
+                <img src="assets/icons/autofin-icono-web-4.svg"  width="30"  alt=""  aria-hidden=true>
               </a>
             </li>
             <li class="list-inline-item">
               <a href="https://itunes.apple.com/us/app/mi-autofin/id1253130290?ls=1&mt=8" target="_blank">
-                <img src="assets/icons/autofin-icono-web-6.svg"  width="37"  alt=""  aria-hidden=true>
+                <img src="assets/icons/autofin-icono-web-6.svg"  width="30"  alt=""  aria-hidden=true>
               </a>
             </li>
           </ul>

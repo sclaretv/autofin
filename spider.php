@@ -50,16 +50,16 @@
         <p>Aplicación web que permite simular, cotizar y evaluar a un cliente desde la página web de ventas del concesionario.</p>
       </div>
 
-      <div class="hide">    
+      <div class="box-iconos-responsive">    
           <ul class="list-inline text-center">
             <li class="list-inline-item">
               <a href="https://www.youtube.com/embed/WaFeIHV4C_U" class="link-video"  >
-                <img src="assets/icons/autofin-icono-web-3.svg"  width="37" alt=""  aria-hidden=true>
+                <img src="assets/icons/autofin-icono-web-3.svg"  width="30" alt=""  aria-hidden=true>
               </a>
             </li>
             <li class="list-inline-item">
               <a href="https://www.trinidadautofin.com/Spider_Test/index.html?idTercero=1&modelo=AERIO&marca=SUZUKI&valorVehiculo=14999000&ano=2018&r=16041782-k&t=187747700&d=+Pro+CircuitPowerSport+Motors&c=9&e=sebastian.vergara%40autofin.cl" target="_blank">
-                <img src="assets/icons/autofin-icono-web-9.svg"  width="37"  alt=""  aria-hidden=true>
+                <img src="assets/icons/autofin-icono-web-9.svg"  width="30"  alt=""  aria-hidden=true>
               </a>
             </li>
           </ul>
