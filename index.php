@@ -169,6 +169,9 @@
 
 <script type="text/javascript">
   $(document).ready(function(){
+    
+    var ventana_ancho = $(window).width();
+
     $('#cover-page').fadeOut();
     var page = new FullPage("#main-content",{
     pagination: true,  
@@ -177,6 +180,11 @@
     if(index == 7){
         $("#footer").hide();
         $("#fuerza").removeClass("fin");
+
+        if (ventana_ancho<768) {
+          $(".box-fuerza1").show();
+          $("#box-fuerza2").addClass('hide');
+        }
       }
     },
     afterLoad:function(index){ 
@@ -184,10 +192,22 @@
       if(index != 7){
         $("#footer").hide();
         $("#fuerza").removeClass("fin");
+
+        if (ventana_ancho<768) {
+          $(".box-fuerza1").show();
+          $("#box-fuerza2").addClass('hide');
+        }
+
       } else {
         setTimeout(function() {
           $("#fuerza").addClass("fin");
           $("#footer").show();
+          
+          if (ventana_ancho<768) {
+            $(".box-fuerza1").hide();
+            $("#box-fuerza2").removeClass('hide');
+          }
+
         }, 1200);
         
       }
