@@ -844,10 +844,11 @@ background: rgba(255,255,255,0.8);
   }
 
   .box-y {
-    top: -170px;
-    width: 420px;
-    height: 230px;
-    padding: 15px 65px 40px 55px;
+    top: -25%;
+    width: 90%;
+    height: 48%;
+    margin: 5%;
+    padding: 5%;
     text-align: center;
   }
 
@@ -856,9 +857,9 @@ background: rgba(255,255,255,0.8);
   }
 
   .auto {
-    margin-top: 160px;
-    margin-left: -230px;
-    width: 600px;
+    margin-top: 165px;
+    margin-left: -270px;
+    width: 570px;
   }
 
   .moto {
@@ -921,13 +922,13 @@ background: rgba(255,255,255,0.8);
     text-align: center;
   }
 
-  .box1, .box4, .box6 {
+  .box1, .box4, .box6, .box1-2 {
     width: 100%;
     height: 100%;
     padding: 0px;
   }
 
-  .box2, .box5 {
+  .box2, .box2-2, .box5 {
     position: absolute;
     left: 0%;
     top: 0%;
@@ -955,12 +956,12 @@ background: rgba(255,255,255,0.8);
     padding-left: 15%;
   }
 
-  .box-iconos, .box-iconos2, .box-iconos5 {
+  .box-iconos, .box-iconos2, .box-iconos3, .box-iconos5 {
     display: none;
   }
 
   .carousel_productos {
-    height: 90%;
+    height: 100%;
   }
 
   .carousel-inner {
@@ -971,24 +972,25 @@ background: rgba(255,255,255,0.8);
   }
 
   .box2-img-carousel {
-    width: 80%;
+    width: 60%;
     left: 0%;
     top: 0%;
-    right: 10%;
+    right: 0%;
     bottom: 0%;
     margin-top: 5%;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 20%;
+    margin-left: 20%;
   }
 
   .carousel-indicators {
     height: 15%;
     margin-top: 0%;
-    padding-top: 20%;
+    padding-top: 40%;
+    padding-bottom: 5%;
     text-align: center;
   }
 
-  .box3-logo, .box3-logo3, .box5-logo, .box6-logo {
+  .box3-logo, .box3-logo2, .box3-logo3, .box5-logo, .box6-logo {
     height: 20%;
     padding-top: 0%;
     padding-bottom: 5%;
@@ -997,7 +999,7 @@ background: rgba(255,255,255,0.8);
     text-align: center;
   }
 
-  .box3-text, .box3-text3 {
+  .box3-text, .box3-text2, .box3-text3 {
     height: 50%;
     padding-top: 10%;
     padding-left: 5%;
@@ -1027,6 +1029,33 @@ background: rgba(255,255,255,0.8);
   #btn-novedades {
     margin-top: 2%;
     margin-bottom: 2%;
+  }
+
+  #novedades-div {
+    width: 100%;
+    height: 100%;
+  }
+
+  .buho-detalle {
+    display: none;
+  }
+
+  .slide-previous {
+    height: 10%;
+    width: 10%;
+    top: 25%;
+    left: 5%;
+    position: absolute;
+    z-index: 15;
+  }
+
+  .slide-next {
+    height: 10%;
+    width: 10%;
+    top: 25%;
+    right: 5%;
+    position: absolute;
+    z-index: 15;
   }
 
   .box-iconos-responsive, .box-iconos-responsive2, .box-iconos-responsive3 {

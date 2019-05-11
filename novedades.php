@@ -64,7 +64,7 @@
         <p>Aplicación móvil que te permite localizar y monitorear tu vehículo 24/7 estés donde estés. Además te ofrece alertas de exceso de velocidad, encendido / apagado motor y programaciones de mantenciones.</p>
       </div>
 
-      <div class="hide">    
+      <div class="box-iconos-responsive">    
           <ul class="list-inline text-center">
             <li class="list-inline-item">
               <a href="https://www.youtube.com/embed/B1tQeVZVsdU" class="link-video"  >
@@ -153,7 +153,7 @@
       <div class="box3-text2">
         <p>Aplicación móvil que te permite generar nuevas ventas en un proceso autónomo de cara al cliente con la posibilidad de incluir la retoma.</p>
 
-        <div class="row">
+        <div class="row buho-detalle">
           <div class="col-sm-4 text-center">
             <img src="assets/icons/autofin-icono-buho-1.svg" class="icon-nov-buho"  width="30" alt=""  aria-hidden=true>
             <p class="text-buho">Marca, modelo, versión, año</p>
@@ -167,7 +167,7 @@
             <p class="text-buho">Evalúo de crédito por el monto</p>
           </div>
         </div>
-        <div class="row">
+        <div class="row buho-detalle">
           <div class="col-sm-4 text-center">
             <img src="assets/icons/autofin-icono-buho-4.svg" class="icon-nov-buho"  width="30" alt=""  aria-hidden=true>
             <p class="text-buho">Simulación de alternativas</p>
@@ -181,7 +181,7 @@
             <p class="text-buho">Alternativas de vehiculos con el mismo precio</p>
           </div>
         </div>
-        <div class="row">
+        <div class="row buho-detalle">
           <div class="col-sm-4 text-center">
             <img src="assets/icons/autofin-icono-buho-7.svg" class="icon-nov-buho"  width="30" alt=""  aria-hidden=true>
             <p class="text-buho">Proceso de compra autónomo</p>
@@ -197,7 +197,7 @@
 
       
 
-      <div class="hide">    
+      <div class="box-iconos-responsive">    
           <ul class="list-inline text-center">
             <li class="list-inline-item">
               <a href="https://www.youtube.com/embed/B1tQeVZVsdU" class="link-video" data-autoplay="true" data-vbtype="video">
