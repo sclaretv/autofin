@@ -184,6 +184,9 @@
         if (ventana_ancho<768) {
           $(".box-fuerza1").show();
           $("#box-fuerza2").addClass('hide');
+        } else {
+          $("#box-fuerza2").addClass('hide');
+          $(".box-fuerza1").show();
         }
       }
     },
@@ -196,6 +199,9 @@
         if (ventana_ancho<768) {
           $(".box-fuerza1").show();
           $("#box-fuerza2").addClass('hide');
+        } else {
+          $("#box-fuerza2").addClass('hide');
+          $(".box-fuerza1").show();
         }
 
       } else {
@@ -206,6 +212,9 @@
           if (ventana_ancho<768) {
             $(".box-fuerza1").hide();
             $("#box-fuerza2").removeClass('hide');
+          } else {
+            $("#box-fuerza2").addClass('hide');
+            $(".box-fuerza1").show();
           }
 
         }, 1200);

@@ -550,6 +550,17 @@ background: rgba(255,255,255,0.8);
   font-size: 14px;
 }
 
+.box3-text4 {
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #949596;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-size: 14px;
+}
+
 .slide-previous {
 	height: 40px;
     width: 40px;
@@ -809,11 +820,6 @@ background: rgba(255,255,255,0.8);
 
 }
 
-@media screen and (max-width: 767px) and (min-width: 556px) {
-
-
-}
-
 
 @media screen and (max-width: 767px) {
 
@@ -844,22 +850,23 @@ background: rgba(255,255,255,0.8);
   }
 
   .box-y {
-    top: -25%;
+    top: -30%;
     width: 90%;
-    height: 48%;
+    height: 30%;
     margin: 5%;
     padding: 5%;
     text-align: center;
   }
 
   .titulo-box-y {
-    font-size: 25px;
+    font-size: 20px;
+    line-height: 20px;
   }
 
   .auto {
-    margin-top: 165px;
-    margin-left: -270px;
-    width: 570px;
+    margin-top: 90px;
+    margin-left: -230px;
+    width: 500px;
   }
 
   .moto {
@@ -869,12 +876,12 @@ background: rgba(255,255,255,0.8);
   }
 
   .text-box-y {
-    margin-left: -30px;
-    margin-right: -30px;
-    margin-top: 210px;
-    margin-bottom: 10px;
-    font-size: 13px;
-    line-height: 15px;
+    margin-left: -10%;
+    margin-right: -10%;
+    margin-top: 70%;
+    margin-bottom: 2%;
+    font-size: 11px;
+    line-height: 11px;
   }
 
   .btn-comencemos, #btn-novedades {
@@ -883,8 +890,8 @@ background: rgba(255,255,255,0.8);
   }
 
   .controles {
-    left: 140px;
-    top: 530px;
+    left: 33%;
+    top: 285%;
   }
 
   .box-comencemos {
@@ -944,7 +951,7 @@ background: rgba(255,255,255,0.8);
   }
 
   .box6 {
-    margin-top: -5%;
+    margin-top: 0%;
   }
 
   .box3-descripcion, .box5-descripcion {
@@ -1023,7 +1030,6 @@ background: rgba(255,255,255,0.8);
     font-size: 12px;
     text-align: center;
     line-height: 12px;
-    color: #949596;
   }
 
   .box3-text4 p {
@@ -1096,4 +1102,98 @@ background: rgba(255,255,255,0.8);
   }
 
 
+}
+
+@media screen and (max-width: 767px) and (min-width: 548px) {
+
+  .carousel-inner {
+    position: relative;
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .box2-img-carousel {
+    width: 60%;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 40%;
+  }
+
+  .text-box-y {
+    margin-left: -10%;
+    margin-right: -10%;
+    margin-top: 50%;
+    margin-bottom: 2%;
+    font-size: 11px;
+    line-height: 11px;
+  }
+
+  .controles {
+    left: 40%;
+    top: 285%;
+  }
+
+  .text-comencemos {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    z-index: 1;
+    height: 60%;
+    padding-top: 25%;
+    padding-right: 30%;
+    padding-left: 30%;
+    font-size: large;
+    line-height: 20px;
+    color: white;
+    text-align: center;
+  }
+
+  .box-iconos-responsive4 {
+    position: absolute;
+    height: 10%;
+    padding-top: 20%;
+    padding-left: 27%;
+    padding-bottom: 5%;
+  }
+
+}
+
+
+@media screen and (max-width: 547px) and (min-width: 375px) {
+
+  .text-box-y {
+    margin-left: -10%;
+    margin-right: -10%;
+    margin-top: 60%;
+    margin-bottom: 2%;
+    font-size: 11px;
+    line-height: 11px;
+  }
+
+  .controles {
+    left: 35%;
+    top: 285%;
+  }
+
+  .text-comencemos {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    z-index: 1;
+    height: 60%;
+    padding-top: 25%;
+    padding-right: 30%;
+    padding-left: 30%;
+    font-size: large;
+    line-height: 20px;
+    color: white;
+    text-align: center;
+  }
 }
