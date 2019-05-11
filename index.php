@@ -308,6 +308,10 @@
       $("#ul-menu-res2").toggle();
     });
 
+    $(".ul-menu-res2").click(function(e) {
+      e.preventDefault();
+      $("#ul-menu-res2").toggle();
+    });
 
    
 
