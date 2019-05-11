@@ -48,7 +48,7 @@ height:100%
 	height:80px;
 	z-index: 10; 
 
-	 background-image: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #000), to(transparent));
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #000), to(transparent));
   background-image: linear-gradient(180deg, #000 80%, transparent);
 }
 
@@ -809,6 +809,11 @@ background: rgba(255,255,255,0.8);
 
 }
 
+@media screen and (max-width: 767px) and (min-width: 556px) {
+
+
+}
+
 
 @media screen and (max-width: 767px) {
 
@@ -881,23 +886,45 @@ background: rgba(255,255,255,0.8);
     top: 530px;
   }
 
-  .box-comencemos {
-    top: -50px;
-    width: 480px;
-  }
-
-  .text-comencemos {
-    padding-top: 25px;
-    padding-left: 120px;
-    padding-right: 120px;
-    line-height: 25px;
-    color: white;
-  }
-
-  .box1, .box4, .box6 {
+  .box-comencemos, .box1, .box4, .box6 {
     width: 100%;
     height: 100%;
     padding: 0px;
+  }
+
+  .div-comencemos {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: 2;
+    height: 35%;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    padding: 10%;
+  }
+
+  .text-comencemos {
+    position: absolute;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    z-index: 1;
+    height: 60%;
+    padding-top: 10%;
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+
+  .div-comencemos .embed-responsive {
+    height: 100%;
+    background-color: #fff;
+  }
+
+  .text-comencemos p {
+    text-align: center;
   }
 
   .box2, .box5 {
@@ -934,6 +961,13 @@ background: rgba(255,255,255,0.8);
 
   .carousel_productos {
     height: 90%;
+  }
+
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
   }
 
   .box2-img-carousel {
