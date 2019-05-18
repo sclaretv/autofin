@@ -26,13 +26,13 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img src="assets/img/AUTOFIN-TRINIDAD-1.png" class="box2-img-carousel"  alt="">
+          <img src="assets/img/AUTOFIN-TRINIDAD-1.png" class="box2-img-carousel2"  alt="">
         </div>
         <div class="item">
-          <img src="assets/img/AUTOFIN-TRINIDAD-2.png" class="box2-img-carousel"  alt="">
+          <img src="assets/img/AUTOFIN-TRINIDAD-2.png" class="box2-img-carousel2"  alt="">
         </div>
         <div class="item">
-          <img src="assets/img/AUTOFIN-TRINIDAD-3.png" class="box2-img-carousel"  alt="">
+          <img src="assets/img/AUTOFIN-TRINIDAD-3.png" class="box2-img-carousel2"  alt="">
         </div>
       </div>
     </div>

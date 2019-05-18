@@ -428,6 +428,10 @@ background: rgba(255,255,255,0.8);
   width: 320px;
 }
 
+.box2-img-carousel2 {
+  width: 320px;
+}
+
 .box3-descripcion {
     height: 100%;
     background-color: #000;
@@ -1010,6 +1014,17 @@ background: rgba(255,255,255,0.8);
     margin-left: 20%;
   }
 
+  .box2-img-carousel2 {
+    width: 60%;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin-top: 5%;
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+
   .carousel-indicators {
     height: 15%;
     margin-top: 0%;
@@ -1141,6 +1156,17 @@ background: rgba(255,255,255,0.8);
     margin-left: 40%;
   }
 
+  .box2-img-carousel2 {
+    width: 60%;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 40%;
+  }
+
   .text-box-y {
     display: none;
     /*margin-left: -10%;
@@ -1221,6 +1247,13 @@ background: rgba(255,255,255,0.8);
     text-align: center;
   }
 
+  .box2-img-carousel2 {
+    width: 100%;
+    margin-top: -20%;
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
   .box-iconos-responsive4 {
     position: absolute;
     height: 10%;
@@ -1262,6 +1295,13 @@ background: rgba(255,255,255,0.8);
     padding-top: 40%;
     padding-left: 25%;
     padding-bottom: 5%;
+  }
+
+  .box2-img-carousel2 {
+    width: 100%;
+    margin-top: -10%;
+    margin-right: 0%;
+    margin-left: 0%;
   }
 
 }
