@@ -1251,6 +1251,11 @@ background: rgba(255,255,255,0.8);
     top: 245%;
   }
 
+  #btn-novedades {
+    margin-top: -3px;
+    font-size: 11px;
+  }
+
   .box-iconos-responsive4 {
     position: absolute;
     height: 10%;
