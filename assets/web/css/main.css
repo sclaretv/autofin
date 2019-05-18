@@ -887,16 +887,22 @@ background: rgba(255,255,255,0.8);
   }
 
   .text-box-y {
-    margin-left: -10%;
+    display: none;
+    /*margin-left: -10%;
     margin-right: -10%;
     margin-top: 70%;
     margin-bottom: 2%;
     font-size: 11px;
-    line-height: 11px;
+    line-height: 11px;*/
   }
 
-  .btn-comencemos, #btn-novedades {
+  #btn-novedades {
     margin-top: 0px;
+    font-size: 11px;
+  }
+
+  .btn-comencemos {
+    margin-top: 45%;
     font-size: 11px;
   }
 
@@ -1136,12 +1142,13 @@ background: rgba(255,255,255,0.8);
   }
 
   .text-box-y {
-    margin-left: -10%;
+    display: none;
+    /*margin-left: -10%;
     margin-right: -10%;
     margin-top: 50%;
     margin-bottom: 2%;
     font-size: 11px;
-    line-height: 11px;
+    line-height: 11px;*/
   }
 
   .controles {
@@ -1179,12 +1186,18 @@ background: rgba(255,255,255,0.8);
 @media screen and (max-width: 547px) and (min-width: 375px) {
 
   .text-box-y {
-    margin-left: -10%;
+    display: none;
+    /*margin-left: -10%;
     margin-right: -10%;
     margin-top: 60%;
     margin-bottom: 2%;
     font-size: 11px;
-    line-height: 11px;
+    line-height: 11px;*/
+  }
+
+  .btn-comencemos {
+    margin-top: 70%;
+    font-size: 11px;
   }
 
   .controles {
@@ -1218,6 +1231,25 @@ background: rgba(255,255,255,0.8);
 }
 
 @media screen and (max-width: 354px) {
+
+  .box-y {
+    top: -30%;
+    width: 90%;
+    height: 35%;
+    margin: 5%;
+    padding: 5%;
+    text-align: center;
+  }
+
+  .btn-comencemos {
+    margin-top: 70%;
+    font-size: 11px;
+  }
+
+  .controles {
+    left: 30%;
+    top: 245%;
+  }
 
   .box-iconos-responsive4 {
     position: absolute;
